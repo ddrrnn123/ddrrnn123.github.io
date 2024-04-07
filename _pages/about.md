@@ -2,24 +2,29 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://hrlblab.github.io'>Biomedical Data Representation and Learning Lab at Vanderbilt University</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>FGH 333</p>
+    <p>Vanderbilt University</p>
+    <p>Nashville, TN, 37205</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+
+Mr. Deng is a Ph.D. candidate in the Department of Computer Science at Vanderbilt University, advised by Dr. [Yuankai Huo](https://hrlblab.github.io). He conducts research in biomedical data analysis, particularly in digital pathology and gene expression data. His efforts are centered on `infusing domain knowledge from the medical field` into the design of `deep learning` models to assist in clinical research. Mr. Deng's research principles include building AI computer vision tools with cross-modal knowledge, advancing clinical research with AI-powered tools, democratizing pathology research, and incorporating foundation models to create a panoramic pathology atlas.
+
+Please find his latest [CV](https://github.com/ddrrnn123/ddrrnn123.github.io/assets/CV/CV_2024Spring.pdf) and [full publications](https://scholar.google.com/citations?hl=en&user=B3UojrgAAAAJ&view_op=list_works).
+
+<!--Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
