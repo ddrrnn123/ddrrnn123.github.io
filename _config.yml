@@ -293,32 +293,32 @@ display_categories: ["blockquotes"] # these categories will be displayed on the 
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
-'''
-scholar:
-  last_name: [Ruining]
-  first_name: [Deng]
 
-  style: apa
-  locale: en
+# scholar:
+#   last_name: [Ruining]
+#   first_name: [Deng]
 
-  source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: bib
-  # Note: if you have latex math in your bibtex, the latex filter
-  # preprocessing may conflict with MathJAX if the latter is enabled.
-  # See https://github.com/alshedivat/al-folio/issues/357.
-  bibtex_filters: [latex, smallcaps, superscript]
+#   style: apa
+#   locale: en
 
-  replace_strings: true
-  join_strings: true
+#   source: /_bibliography/
+#   bibliography: papers.bib
+#   bibliography_template: bib
+#   # Note: if you have latex math in your bibtex, the latex filter
+#   # preprocessing may conflict with MathJAX if the latter is enabled.
+#   # See https://github.com/alshedivat/al-folio/issues/357.
+#   bibtex_filters: [latex, smallcaps, superscript]
 
-  details_dir: bibliography
-  details_link: Details
+#   replace_strings: true
+#   join_strings: true
 
-  query: "@*"
-  group_by: year
-  group_order: descending
-'''
+#   details_dir: bibliography
+#   details_link: Details
+
+#   query: "@*"
+#   group_by: year
+#   group_order: descending
+
 
 # Display different badges withs stats for your publications
 enable_publication_badges:
