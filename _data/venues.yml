@@ -4,3 +4,35 @@
 
 "PhysRev":
   url: https://journals.aps.org/
+
+"MedIA":
+  url: https://www.sciencedirect.com/journal/medical-image-analysis
+  color: "#BEE1F7"
+
+"IEEE TMI":
+  url: https://www.ieeetmi.org
+  color: "#BEE1F7"
+
+"IEEE TBME":
+  url: https://www.embs.org/tbme/
+  color: "#BEE1F7"
+
+"MICCAI":
+  url: https://miccai.org
+  color: "#EFC3DC"
+
+"SPIE MI":
+  url: https://spie.org/conferences-and-exhibitions/medical-imaging#_=_
+  color: "#EFC3DC"
+
+"KI":
+  url: https://www.kidney-international.org
+  color: "#BEE1F7"
+
+"CVPR":
+  url: https://spie.org/conferences-and-exhibitions/medical-imaging#_=_
+  color: "#EFC3DC"
+
+"MIDL":
+  url: https://www.midl.io
+  color: "#EFC3DC"
