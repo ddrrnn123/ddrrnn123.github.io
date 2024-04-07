@@ -6,7 +6,7 @@ subtitle: <a href='https://hrlblab.github.io'>Biomedical Data Representation and
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: main_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>FGH 333</p>
