@@ -23,7 +23,7 @@ Mr. Deng is a Ph.D. candidate in the [Department of Computer Science](https://en
 
 Please find his latest [CV](https://github.com/ddrrnn123/ddrrnn123.github.io/blob/master/assets/CV/CV_2024Spring.pdf) and [full publications](https://scholar.google.com/citations?hl=en&user=B3UojrgAAAAJ&view_op=list_works).
 
-!!! We have launched MICCAI 2024 KPIs challenge: [Link to KPIs challenge](https://sites.google.com/view/kpis2024/home)
+•  We have launched MICCAI 2024 KPIs challenge: [Link to KPIs challenge](https://sites.google.com/view/kpis2024/home)
 
 <!--Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
