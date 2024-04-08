@@ -41,6 +41,7 @@
   pages={46--50},
   year={2024},
   organization={SPIE},
+  preview={brownian-motion.gif},
   bibtex_show={true},
   code={https://github.com/hrlblab/cs-mil},
   url={https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12933/1293309/Cross-modality-attention-based-multimodal-fusion-for-non-small-cell/10.1117/12.3006036.full},
@@ -57,9 +58,27 @@
   pages={133--139},
   year={2024},
   organization={SPIE},
+  preview={brownian-motion.gif},
   bibtex_show={true},
   url={https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12933/129330K/Leverage-weekly-annotation-to-pixel-wise-annotation-via-zero-shot/10.1117/12.3006577.full},
 }
+
+@inproceedings{hu2024multi,
+  abbr={SPIE MI},
+  title={Multi-scale multi-site renal microvascular structures segmentation for whole slide imaging in renal pathology},
+  author={Hu*, Franklin and Deng*, Ruining and Bao, Shunxing and Yang, Haichun and Huo, Yuankai},
+  abstract={Segmenting microvascular structures, such as arterioles, venules, and capillaries, from human kidney whole slide images (WSI) in renal pathology has garnered significant interest. The current manual segmentation approach is laborious and impractical for large-scale digital pathology images. To address this, deep learning-based methods have emerged for automatic segmentation. However, a gap exists in current deep learning segmentation methods, as they are typically designed and limited by using single-site single-scale data for training. In this paper, we introduce a novel single dynamic network method (Omni-Seg), which harnesses multi-site multi-scale training data, utilizing partially labeled images where only one tissue type is labeled per training image for microvascular structure segmentation. We train a single deep network using images from two datasets, HuBMAP and NEPTUNE, with different scales (40×, 20×, 10×, 5×). Our experimental results demonstrate that our approach achieves higher Dice Similarity Coefficient (DSC) and Intersection over Union (IoU) scores. This proposed method empowers renal pathologists with a computational tool for quantitatively assessing renal microvascular structures.},
+  booktitle={Medical Imaging 2024: Digital and Computational Pathology},
+  volume={12933},
+  pages={310--316},
+  year={2024},
+  organization={SPIE},
+  preview={brownian-motion.gif},
+  bibtex_show={true},
+  code={https://github.com/ddrrnn123/Omni-Seg},
+  url={https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12933/1293319/Multi-scale-multi-site-renal-microvascular-structures-segmentation-for-whole/10.1117/12.3006262.full},
+}
+
 
 
 @inproceedings{deng2023democratizing,
@@ -78,7 +97,7 @@
 }
 
 @article{deng2023segment,
-  abbr={MIDL},
+  abbr={MIDL S},
   title={Segment anything model (sam) for digital pathology: Assess zero-shot segmentation on whole slide imaging},
   author={Deng*, Ruining and Cui*, Can and Liu*, Quan and Yao, Tianyuan and Remedios, Lucas W and Bao, Shunxing and Landman, Bennett A and Wheless, Lee E and Coburn, Lori A and Wilson, Keith T and others},
   abstract={The segment anything model (SAM) was released as a foundation model for image segmentation. The promptable segmentation model was trained by over 1 billion masks on 11M licensed and privacy-respecting images. The model supports zero-shot image segmentation with various segmentation prompts (e.g., points, boxes, masks). It makes the SAM attractive for medical image analysis, especially for digital pathology where the training data are rare. In this study, we evaluate the zero-shot segmentation performance of SAM model on representative segmentation tasks on whole slide imaging (WSI), including (1) tumor segmentation, (2) non-tumor tissue segmentation, (3) cell nuclei segmentation. Core Results: The results suggest that the zero-shot SAM model achieves remarkable segmentation performance for large connected objects. However, it does not consistently achieve satisfying performance for dense instance object segmentation, even with 20 prompts (clicks/boxes) on each image. We also summarized the identified limitations for digital pathology: (1) image resolution, (2) multiple scales, (3) prompt selection, and (4) model fine-tuning. In the future, the few-shot fine-tuning with images from downstream pathological segmentation tasks might help the model to achieve better performance in dense object segmentation.},
@@ -103,6 +122,39 @@
   bibtex_show={true},
   url={https://ieeexplore.ieee.org/abstract/document/10079171},
   code={https://github.com/ddrrnn123/Omni-Seg}
+}
+
+@inproceedings{leng2023accelerated,
+  abbr={SPIE MI},
+  title={An accelerated pipeline for multi-label renal pathology image segmentation at the whole slide image level},
+  author={Leng*, Haoju and Deng*, Ruining and Asad, Zuhayr and Womick, R Michael and Yang, Haichun and Wan, Lipeng and Huo, Yuankai},
+  abstract={Deep-learning techniques have been used widely to alleviate the labour-intensive and time-consuming manual annotation required for pixel-level tissue characterization. Our previous study introduced an efficient single dynamic network - Omni-Seg - that achieved multi-class multi-scale pathological segmentation with less computational complexity. However, the patch-wise segmentation paradigm still applies to Omni-Seg, and the pipeline is time-consuming when providing segmentation for Whole Slide Images (WSIs). In this paper, we propose an enhanced version of the Omni-Seg pipeline in order to reduce the repetitive computing processes and utilize a GPU to accelerate the model’s prediction for both better model performance and faster speed. Our proposed method’s innovative contribution is two-fold: (1) a Docker is released for an end-to-end slide-wise multi-tissue segmentation for WSIs; and (2) the pipeline is deployed on a GPU to accelerate the prediction, achieving better segmentation quality in less time. The proposed accelerated implementation reduced the average processing time (at the testing stage) on a standard needle biopsy WSI from 2.3 hours to 22 minutes, using 35 WSIs from the Kidney Tissue Atlas (KPMP) Datasets. The source code and the Docker have been made publicly available at https://github.com/ddrrnn123/Omni-Seg.},
+  booktitle={Medical Imaging 2023: Digital and Computational Pathology},
+  volume={12471},
+  pages={174--179},
+  year={2023},
+  organization={SPIE},
+  preview={brownian-motion.gif},
+  bibtex_show={true},
+  code={https://github.com/ddrrnn123/Omni-Seg},
+  url={https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12471/124710Q/An-accelerated-pipeline-for-multi-label-renal-pathology-image-segmentation/10.1117/12.2653651.full}
+}
+
+
+@inproceedings{li2023end,
+  abbr={SPIE MI},
+  title={An end-to-end pipeline for 3D slide-wise multi-stain renal pathology registration},
+  author={Li, Peize and Deng, Ruining and Huo, Yuankai},
+  abstract={},
+  booktitle={Medical Imaging 2023: Digital and Computational Pathology},
+  volume={12471},
+  pages={96--101},
+  year={2023},
+  organization={SPIE},
+  preview={brownian-motion.gif},
+  bibtex_show={true},
+  code={https://github.com/hrlblab/Map3D},
+  url={https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12471/124710F/An-end-to-end-pipeline-for-3D-slide-wise-multi/10.1117/12.2654542.full}
 }
 
 
@@ -136,6 +188,37 @@
   url={https://proceedings.mlr.press/v172/deng22a.html},
   code={https://github.com/ddrrnn123/Omni-Seg}
 }
+
+@inproceedings{deng2022cross,
+  abbr={MICCAI W},
+  title={Cross-scale attention guided multi-instance learning for Crohn’s disease diagnosis with pathological images},
+  author={Deng, Ruining and Cui, Can and Remedios, Lucas W and Bao, Shunxing and Womick, R Michael and Chiron, Sophie and Li, Jia and Roland, Joseph T and Lau, Ken S and Liu, Qi and others},
+  abstract={Multi-instance learning (MIL) is widely used in the computer-aided interpretation of pathological Whole Slide Images (WSIs) to solve the lack of pixel-wise or patch-wise annotations. Often, this approach directly applies “natural image driven” MIL algorithms which overlook the multi-scale (i.e. pyramidal) nature of WSIs. Off-the-shelf MIL algorithms are typically deployed on a single-scale of WSIs (e.g., 20 magnification), while human pathologists usually aggregate the global and local patterns in a multi-scale manner (e.g., by zooming in and out between different magnifications). In this study, we propose a novel cross-scale attention mechanism to explicitly aggregate inter-scale interactions into a single MIL network for Crohn’s Disease (CD), which is a form of inflammatory bowel disease. The contribution of this paper is two-fold: (1) a cross-scale attention mechanism is proposed to aggregate features from different resolutions with multi-scale interaction; and (2) differential multi-scale attention visualizations are generated to localize explainable lesion patterns. By training 250,000 H &E-stained Ascending Colon (AC) patches from 20 CD patient and 30 healthy control samples at different scales, our approach achieved a superior Area under the Curve (AUC) score of 0.8924 compared with baseline models. The official implementation is publicly available at https://github.com/hrlblab/CS-MIL.},
+  booktitle={International Workshop on Multiscale Multimodal Medical Imaging},
+  pages={24--33},
+  year={2022},
+  organization={Springer},
+  preview={brownian-motion.gif},
+  bibtex_show={true},
+  code={https://github.com/hrlblab/CS-MIL},
+  url={https://link.springer.com/chapter/10.1007/978-3-031-18814-5_3}
+}
+
+@inproceedings{deng2022dense,
+  title={Dense multi-object 3D glomerular reconstruction and quantification on 2D serial section whole slide images},
+  author={Deng, Ruining and Yang, Haichun and Asad, Zuhayr and Zhu, Zheyu and Wang, Shiru and Wheless, Lee E and Fogo, Agnes B and Huo, Yuankai},
+  abstract={There has been a long pursuit for precise and reproducible glomerular quantification in the field of renal pathology in both research and clinical practice. Currently, 3D glomerular identification and reconstruction of large-scale glomeruli are labor-intensive tasks, and time-consuming by manual analysis on whole slide imaging (WSI) in 2D serial sectioning representation. The accuracy of serial section analysis is also limited in the 2D serial context. Moreover, there are no approaches to present 3D glomerular visualization for human examination (volume calculation, 3D phenotype analysis, etc.). In this paper, we introduce an end-to-end holistic deep-learning-based method that achieves automatic detection, segmentation and multi-object tracking (MOT) of individual glomeruli with large-scale glomerular-registered assessment in a 3D context on WSIs. The high-resolution WSIs are the inputs, while the outputs are the 3D glomerular reconstruction and volume estimation. This pipeline achieves 81.8 in IDF1 and 69.1 in MOTA as MOT performance, while the proposed volume estimation achieves 0.84 Spearman correlation coefficient with manual annotation. The end-to-end MAP3D+ pipeline provides an approach for extensive 3D glomerular reconstruction and volume quantification from 2D serial section WSIs.},
+  booktitle={Medical Imaging 2022: Digital and Computational Pathology},
+  volume={12039},
+  pages={83--90},
+  year={2022},
+  organization={SPIE},
+  preview={brownian-motion.gif},
+  bibtex_show={true},
+  code={https://github.com/hrlblab/Map3D},
+  url={https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12039/120390F/Dense-multi-object-3D-glomerular-reconstruction-and-quantification-on-2D/10.1117/12.2611957.full}
+}
+
 
 @article{deng2021map3d,
   abbr={IEEE TMI},
@@ -187,6 +270,22 @@
   url={https://www.sciencedirect.com/science/article/pii/S0085253821001812},
 }
 
+@inproceedings{deng2021cacl,
+  abbr={MICCAI W},
+  title={CaCL: Class-Aware Codebook Learning for Weakly Supervised Segmentation on Diffuse Image Patterns},
+  author={Deng, Ruining and Liu, Quan and Bao, Shunxing and Jha, Aadarsh and Chang, Catie and Millis, Bryan A and Tyska, Matthew J and Huo, Yuankai},
+  abstract={Weakly supervised learning has been rapidly advanced in biomedical image analysis to achieve pixel-wise labels (segmentation) from image-wise annotations (classification), as biomedical images naturally contain image-wise labels in many scenarios. The current weakly supervised learning algorithms from the computer vision community are largely designed for focal objects (e.g., dogs and cats). However, such algorithms are not optimized for diffuse patterns in biomedical imaging (e.g., stains and fluorescence in microscopy imaging). In this paper, we propose a novel class-aware codebook learning (CaCL) algorithm to perform weakly supervised learning for diffuse image patterns. Specifically, the CaCL algorithm is deployed to segment protein expressed brush border regions from histological images of human duodenum. Our contribution is three-fold: (1) we approach the weakly supervised segmentation from a novel codebook learning perspective; (2) the CaCL algorithm segments diffuse image patterns rather than focal objects; and (3) the proposed algorithm is implemented in a multi-task framework based on Vector Quantised-Variational AutoEncoder (VQ-VAE) via joint image reconstruction, classification, feature embedding, and segmentation. The experimental results show that our method achieved superior performance compared with baseline weakly supervised algorithms. The code is available at https://github.com/ddrrnn123/CaCL.},
+  booktitle={Deep Generative Models, and Data Augmentation, Labelling, and Imperfections: First Workshop, DGM4MICCAI 2021, and First Workshop, DALI 2021, Held in Conjunction with MICCAI 2021, Strasbourg, France, October 1, 2021, Proceedings 1},
+  pages={93--102},
+  year={2021},
+  organization={Springer},
+  preview={brownian-motion.gif},
+  bibtex_show={true},
+  url={https://link.springer.com/chapter/10.1007/978-3-030-88210-5_8},
+  code={https://github.com/ddrrnn123/CaCL},
+}
+
+
 @inproceedings{yang2020circlenet,
   abbr={MICCAI},
   title={CircleNet: Anchor-free glomerulus detection with circle representation},
@@ -201,7 +300,6 @@
   url={https://link.springer.com/chapter/10.1007/978-3-030-59719-1_4},
   code={https://github.com/hrlblab/CircleNet},
 }
-
 
 
 @string{aps = {American Physical Society,}}

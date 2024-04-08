@@ -21,6 +21,10 @@
   url: https://miccai.org
   color: "#EFC3DC"
 
+"MICCAI W":
+  url: https://miccai.org
+  color: "#EFC3DC"
+
 "SPIE MI":
   url: https://spie.org/conferences-and-exhibitions/medical-imaging#_=_
   color: "#EFC3DC"
@@ -34,5 +38,9 @@
   color: "#EFC3DC"
 
 "MIDL":
+  url: https://www.midl.io
+  color: "#EFC3DC"
+
+"MIDL S":
   url: https://www.midl.io
   color: "#EFC3DC"
