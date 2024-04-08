@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper has been accepted by `CVPR2024`.
+One paper is accepted by `CVPR 2024`.
