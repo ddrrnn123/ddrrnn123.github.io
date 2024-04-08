@@ -7,6 +7,7 @@ nav: true
 nav_order: 6
 ---
 `Teaching Experience`
+
 • [2024 Spring] Guest Lecturer, CS-4267 Deep Learning
 
 • [2021 Spring] Teaching Assistant, CS-3891 Deep Learning 
