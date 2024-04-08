@@ -270,6 +270,22 @@
   html={https://www.sciencedirect.com/science/article/pii/S0085253821001812},
 }
 
+@inproceedings{liu2021simtriplet,
+  abbr={MICCAI},
+  title={Simtriplet: Simple triplet representation learning with a single gpu},
+  author={Liu, Quan and Louis, Peter C and Lu, Yuzhe and Jha, Aadarsh and Zhao, Mengyang and Deng, Ruining and Yao, Tianyuan and Roland, Joseph T and Yang, Haichun and Zhao, Shilin and others},
+  abstract={Contrastive learning is a key technique of modern self-supervised learning. The broader accessibility of earlier approaches is hindered by the need of heavy computational resources (e.g., at least 8 GPUs or 32 TPU cores), which accommodate for large-scale negative samples or momentum. The more recent SimSiam approach addresses such key limitations via stop-gradient without momentum encoders. In medical image analysis, multiple instances can be achieved from the same patient or tissue. Inspired by these advances, we propose a simple triplet representation learning (SimTriplet) approach on pathological images. The contribution of the paper is three-fold: (1) The proposed SimTriplet method takes advantage of the multi-view nature of medical images beyond self-augmentation; (2) The method maximizes both intra-sample and inter-sample similarities via triplets from positive pairs, without using negative samples; and (3) The recent mix precision training is employed to advance the training by only using a single GPU with 16 GB memory. By learning from 79,000 unlabeled pathological patch images, SimTriplet achieved 10.58% better performance compared with supervised learning. It also achieved 2.13% better performance compared with SimSiam. Our proposed SimTriplet can achieve decent performance using only 1% labeled data. The code and data are available at https://github.com/hrlblab/SimTriplet.},
+  booktitle={Medical Image Computing and Computer Assisted Intervention--MICCAI 2021: 24th International Conference, Strasbourg, France, September 27--October 1, 2021, Proceedings, Part II 24},
+  pages={102--112},
+  year={2021},
+  organization={Springer},
+  preview={brownian-motion.gif},
+  bibtex_show={true},
+  html={https://link.springer.com/chapter/10.1007/978-3-030-87196-3_10},
+  code={https://github.com/hrlblab/SimTriplet}, 
+}
+
+
 @inproceedings{deng2021cacl,
   abbr={MICCAI W},
   title={CaCL: Class-Aware Codebook Learning for Weakly Supervised Segmentation on Diffuse Image Patterns},
