@@ -1,12 +1,12 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching & co-mentoring & serving
+title: serving
 description: 
 nav: true
 nav_order: 6
 ---
-`Teaching Experience`
+`Teaching experience`
 
 • [2024 Spring] Guest Lecturer, CS-4267 Deep Learning
 
@@ -16,7 +16,7 @@ nav_order: 6
 
 • [2020   Fall] Grader, EECE-5353-01 Image Processing 
 
-`Serving Experience`
+`Serving experience`
 
 • MICCAI 2024 KPIs Challenge, Executive Committee
 
@@ -28,7 +28,7 @@ nav_order: 6
 
 • MED-NEURIPS 2022, Program Committee
 
-`Journal Reviewer`
+`Journal reviewer`
 
 • IEEE Transactions on Medical Imaging (TMI)
 
@@ -52,7 +52,7 @@ nav_order: 6
 
 • IEEE Access
 
-`Conference Reviewer`
+`Conference reviewer`
 
 • International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)
 
@@ -64,7 +64,7 @@ nav_order: 6
 
 • Conference on Neural Information Processing Systems Workshop (NIPSW)
 
-`Co-mentoring Experience`
+`Co-mentoring rxperience`
 
 • Juming Xiong, MS BME, Circle representation for medical instance segmentation.
 
