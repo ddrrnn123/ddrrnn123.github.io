@@ -1,6 +1,20 @@
 ---
 ---
 
+@article{deng2024prpseg,
+  abbr={CVPR},
+  title={PrPSeg: Universal Proposition Learning for Panoramic Renal Pathology Segmentation},
+  author={Deng, Ruining and Liu, Quan and Cui, Can and Yao, Tianyuan and Yue, Jialin and Xiong, Juming and Yu, Lining and Wu, Yifei and Yin, Mengmeng and Wang, Yu and others},
+  abstract={Understanding the anatomy of renal pathology is crucial for advancing disease diagnostics, treatment evaluation, and clinical research. The complex kidney system comprises various components across multiple levels, including regions (cortex, medulla), functional units (glomeruli, tubules), and cells (podocytes, mesangial cells in glomerulus). Prior studies have predominantly overlooked the intricate spatial interrelations among objects from clinical knowledge. In this research, we introduce a novel universal proposition learning approach, called panoramic renal pathology segmentation (PrPSeg), designed to segment comprehensively panoramic structures within kidney by integrating extensive knowledge of kidney anatomy. In this paper, we propose (1) the design of a comprehensive universal proposition matrix for renal pathology, facilitating the incorporation of classification and spatial relationships into the segmentation process; (2) a token-based dynamic head single network architecture, with the improvement of the partial label image segmentation and capability for future data enlargement; and (3) an anatomy loss function, quantifying the inter-object relationships across the kidney.},
+  journal={CVPR2024},
+  year={2024},
+  publisher={IEEE},
+  preview={brownian-motion.gif},
+  bibtex_show={true},
+  url={https://arxiv.org/pdf/2402.19286.pdf},
+  code={https://github.com/ddrrnn123/Omni-Seg},
+}
+
 
 @article{deng2024cross,
   abbr={MedIA},
@@ -14,7 +28,181 @@
   preview={brownian-motion.gif},
   bibtex_show={true},
   url={https://www.sciencedirect.com/science/article/pii/S1361841524000495},
+  code={https://github.com/hrlblab/cs-mil},
 }
+
+@inproceedings{deng2024cross,
+  abbr={SPIE MI},
+  title={Cross-modality attention-based multimodal fusion for non-small cell lung cancer (NSCLC) patient survival prediction},
+  author={Deng, Ruining and Shaikh, Nazim and Shannon, Gareth and Nie, Yao},
+  abstract={Cancer prognosis and survival outcome predictions are crucial for therapeutic response estimation and for stratifying patients into various treatment groups. Medical domains concerned with cancer prognosis are abundant with multiple modalities, including pathological image data and non-image data such as genomic information. To date, multimodal learning has shown potential to enhance clinical prediction model performance by extracting and aggregating information from different modalities of the same subject. This approach could outperform single modality learning, thus improving computer-aided diagnosis and prognosis in numerous medical applications. In this work, we propose a cross-modality attention-based multimodal fusion pipeline designed to integrate modality-specific knowledge for patient survival prediction in non-small cell lung cancer (NSCLC). Instead of merely concatenating or summing up the features from different modalities, our method gauges the importance of each modality for feature fusion with cross-modality relationship when infusing the multimodal features. Compared with single modality, which achieved c-index of 0.5772 and 0.5885 using solely tissue image data or RNA-seq data, respectively, the proposed fusion approach achieved c-index 0.6587 in our experiment, showcasing the capability of assimilating modality-specific knowledge from varied modalities.},
+  booktitle={Medical Imaging 2024: Digital and Computational Pathology},
+  volume={12933},
+  pages={46--50},
+  year={2024},
+  organization={SPIE},
+  bibtex_show={true},
+  code={https://github.com/hrlblab/cs-mil},
+  url={https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12933/1293309/Cross-modality-attention-based-multimodal-fusion-for-non-small-cell/10.1117/12.3006036.full},
+}
+
+
+@inproceedings{li2024leverage,
+  abbr={SPIE MI},
+  title={Leverage weekly annotation to pixel-wise annotation via zero-shot segment anything model for molecular-empowered learning},
+  author={Li*, Xueyuan and Deng*, Ruining and Tang, Yucheng and Bao, Shunxing and Yang, Haichun and Huo, Yuankai},
+  abstract={Precise identification of multiple cell classes in high-resolution Giga-pixel whole slide imaging (WSI) is critical for various clinical scenarios. Building an AI model for this purpose typically requires pixel-level annotations, which are often unscalable and must be done by skilled domain experts (e.g., pathologists). However, these annotations can be prone to errors, especially when distinguishing between intricate cell types (e.g., podocytes and mesangial cells) using only visual inspection. Interestingly, a recent study showed that lay annotators, when using extra immunofluorescence (IF) images for reference (referred to as molecular-empowered learning), can sometimes outperform domain experts in labeling. Despite this, the resource-intensive task of manual delineation remains a necessity during the annotation process. In this paper, we explore the potential of bypassing pixel-level delineation by employing the recent segment anything model (SAM) on weak box annotation in a zero-shot learning approach. Specifically, we harness SAM’s ability to produce pixel-level annotations from box annotations and utilize these SAM-generated labels to train a segmentation model. Our findings show that the proposed SAM-assisted molecular-empowered learning (SAM-L) can diminish the labeling efforts for lay annotators by only requiring weak box annotations. This is achieved without compromising annotation accuracy or the performance of the deep learning-based segmentation. This research represents a significant advancement in democratizing the annotation process for training pathological image segmentation, relying solely on non-expert annotators.},
+  booktitle={Medical Imaging 2024: Digital and Computational Pathology},
+  volume={12933},
+  pages={133--139},
+  year={2024},
+  organization={SPIE},
+  bibtex_show={true},
+  url={https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12933/129330K/Leverage-weekly-annotation-to-pixel-wise-annotation-via-zero-shot/10.1117/12.3006577.full},
+}
+
+
+@inproceedings{deng2023democratizing,
+  abbr={MICCAI},
+  title={Democratizing pathological image segmentation with lay annotators via molecular-empowered learning},
+  author={Deng, Ruining and Li, Yanwei and Li, Peize and Wang, Jiacheng and Remedios, Lucas W and Agzamkhodjaev, Saydolimkhon and Asad, Zuhayr and Liu, Quan and Cui, Can and Wang, Yaohong and others},
+  abstract={Multi-class cell segmentation in high-resolution Giga-pixel whole slide images (WSI) is critical for various clinical applications. Training such an AI model typically requires labor-intensive pixel-wise manual annotation from experienced domain experts (e.g., pathologists). Moreover, such annotation is error-prone when differentiating fine-grained cell types (e.g., podocyte and mesangial cells) via the naked human eye. In this study, we assess the feasibility of democratizing pathological AI deployment by only using lay annotators (annotators without medical domain knowledge). The contribution of this paper is threefold: (1) We proposed a molecular-empowered learning scheme for multi-class cell segmentation using partial labels from lay annotators; (2) The proposed method integrated Giga-pixel level molecular-morphology cross-modality registration, molecular-informed annotation, and molecular-oriented segmentation model, so as to achieve significantly superior performance via 3 lay annotators as compared with 2 experienced pathologists; (3) A deep corrective learning (learning with imperfect labels) method is proposed to further improve the segmentation performance using partially annotated noisy data. From the experimental results, our learning method achieved F1 = 0.8496 using molecular-informed annotations from lay annotators, which is better than conventional morphology-based annotations (F1 = 0.7015) from experienced pathologists. Our method democratizes the development of a pathological segmentation deep model to the lay annotator level, which consequently scales up the learning process similar to a non-medical computer vision task. The official implementation and cell annotations are publicly available at https://github.com/hrlblab/MolecularEL.}, 
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={497--507},
+  year={2023},
+  organization={Springer},
+  preview={brownian-motion.gif},
+  bibtex_show={true},
+  url={https://link.springer.com/chapter/10.1007/978-3-031-43987-2_48},
+  code={https://github.com/hrlblab/MolecularEL},
+}
+
+@article{deng2023segment,
+  abbr={MIDL},
+  title={Segment anything model (sam) for digital pathology: Assess zero-shot segmentation on whole slide imaging},
+  author={Deng*, Ruining and Cui*, Can and Liu*, Quan and Yao, Tianyuan and Remedios, Lucas W and Bao, Shunxing and Landman, Bennett A and Wheless, Lee E and Coburn, Lori A and Wilson, Keith T and others},
+  abstract={The segment anything model (SAM) was released as a foundation model for image segmentation. The promptable segmentation model was trained by over 1 billion masks on 11M licensed and privacy-respecting images. The model supports zero-shot image segmentation with various segmentation prompts (e.g., points, boxes, masks). It makes the SAM attractive for medical image analysis, especially for digital pathology where the training data are rare. In this study, we evaluate the zero-shot segmentation performance of SAM model on representative segmentation tasks on whole slide imaging (WSI), including (1) tumor segmentation, (2) non-tumor tissue segmentation, (3) cell nuclei segmentation. Core Results: The results suggest that the zero-shot SAM model achieves remarkable segmentation performance for large connected objects. However, it does not consistently achieve satisfying performance for dense instance object segmentation, even with 20 prompts (clicks/boxes) on each image. We also summarized the identified limitations for digital pathology: (1) image resolution, (2) multiple scales, (3) prompt selection, and (4) model fine-tuning. In the future, the few-shot fine-tuning with images from downstream pathological segmentation tasks might help the model to achieve better performance in dense object segmentation.},
+  journal={In International Conference on Medical Imaging with Deep Learning Short Paper Track},
+  year={2023},
+  publisher={PMLR},
+  preview={brownian-motion.gif},
+  bibtex_show={true},
+  url={https://arxiv.org/pdf/2304.04155.pdf},
+}
+
+
+@article{deng2023omni,
+  abbr={IEEE TBME},
+  title={Omni-seg: A scale-aware dynamic network for renal pathological image segmentation},
+  author={Deng, Ruining and Liu, Quan and Cui, Can and Yao, Tianyuan and Long, Jun and Asad, Zuhayr and Womick, R Michael and Zhu, Zheyu and Fogo, Agnes B and Zhao, Shilin and others},
+  abstract={Comprehensive semantic segmentation on renal pathological images is challenging due to the heterogeneous scales of the objects. For example, on a whole slide image (WSI), the cross-sectional areas of glomeruli can be 64 times larger than that of the peritubular capillaries, making it impractical to segment both objects on the same patch, at the same scale. To handle this scaling issue, prior studies have typically trained multiple segmentation networks in order to match the optimal pixel resolution of heterogeneous tissue types. This multi-network solution is resource-intensive and fails to model the spatial relationship between tissue types. In this article, we propose the Omni-Seg network, a scale-aware dynamic neural network that achieves multi-object (six tissue types) and multi-scale (5× to 40× scale) pathological image segmentation via a single neural network. The contribution of this article is three-fold: (1) a novel scale-aware controller is proposed to generalize the dynamic neural network from single-scale to multi-scale; (2) semi-supervised consistency regularization of pseudo-labels is introduced to model the inter-scale correlation of unannotated tissue types into a single end-to-end learning paradigm; and (3) superior scale-aware generalization is evidenced by directly applying a model trained on human kidney images to mouse kidney images, without retraining. By learning from 150,000 human pathological image patches from six tissue types at three different resolutions, our approach achieved superior segmentation performance according to human visual assessment and evaluation of image-omics (i.e., spatial transcriptomics).},
+  journal={IEEE Transactions on Biomedical Engineering},
+  year={2023},
+  publisher={IEEE},
+  preview={brownian-motion.gif},
+  bibtex_show={true},
+  url={https://ieeexplore.ieee.org/abstract/document/10079171},
+  code={https://github.com/ddrrnn123/Omni-Seg}
+}
+
+
+@inproceedings{cui2022survival,
+  abbr={MICCAI},
+  title={Survival prediction of brain cancer with incomplete radiology, pathology, genomic, and demographic data},
+  author={Cui, Can and Liu, Han and Liu, Quan and Deng, Ruining and Asad, Zuhayr and Wang, Yaohong and Zhao, Shilin and Yang, Haichun and Landman, Bennett A and Huo, Yuankai},
+  abstract={Integrating cross-department multi-modal data (e.g., radiology, pathology, genomic, and demographic data) is ubiquitous in brain cancer diagnosis and survival prediction. To date, such an integration is typically conducted by human physicians (and panels of experts), which can be subjective and semi-quantitative. Recent advances in multi-modal deep learning, however, have opened a door to leverage such a process in a more objective and quantitative manner. Unfortunately, the prior arts of using four modalities on brain cancer survival prediction are limited by a “complete modalities” setting (i.e., with all modalities available). Thus, there are still open questions on how to effectively predict brain cancer survival from incomplete radiology, pathology, genomic, and demographic data (e.g., one or more modalities might not be collected for a patient). For instance, should we use both complete and incomplete data, and more importantly, how do we use such data? To answer the preceding questions, we generalize the multi-modal learning on cross-department multi-modal data to a missing data setting. Our contribution is three-fold: 1) We introduce a multi-modal learning with missing data (MMD) pipeline with competitive performance and less hardware consumption; 2) We extend multi-modal learning on radiology, pathology, genomic, and demographic data into missing data scenarios; 3) A large-scale public dataset (with 962 patients) is collected to systematically evaluate glioma tumor survival prediction using four modalities. The proposed method improved the C-index of survival prediction from 0.7624 to 0.8053.}, 
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={626--635},
+  year={2022},
+  organization={Springer},
+  preview={brownian-motion.gif},
+  bibtex_show={true},
+  url={https://link.springer.com/chapter/10.1007/978-3-031-16443-9_60},
+  code={https://github.com/cuicathy/MMD_SurvivalPrediction}
+}
+
+
+@inproceedings{deng2022single,
+  abbr={MIDL},
+  title={Single dynamic network for multi-label renal pathology image segmentation},
+  author={Deng, Ruining and Liu, Quan and Cui, Can and Asad, Zuhayr and Huo, Yuankai and others},
+  abstract={Computer-assisted quantitative analysis on Giga-pixel pathology images has provided a new avenue in histology examination. The innovations have been largely focused on cancer pathology (i.e., tumor segmentation and characterization). In non-cancer pathology, the learning algorithms can be asked to examine more comprehensive tissue types simultaneously, as a multi-label setting. The prior arts typically needed to train multiple segmentation networks in order to match the domain-specific knowledge for heterogeneous tissue types (e.g., glomerular tuft, glomerular unit, proximal tubular, distal tubular, peritubular capillaries, and arteries). In this paper, we propose a dynamic single segmentation network (Omni-Seg) that learns to segment multiple tissue types using partially labeled images (i.e., only one tissue type is labeled for each training image) for renal pathology. By learning from  150,000 patch-wise pathological images from six tissue types, the proposed Omni-Seg network achieved superior segmentation accuracy and less resource consumption when compared to the previous the multiple-network and multi-head design. In the testing stage, the proposed method obtains “completely labeled" tissue segmentation results using only “partially labeled" training images. The source code is available at \url{https://github.com/ddrrnn123/Omni-Seg}},
+  booktitle={International Conference on Medical Imaging with Deep Learning},
+  pages={304--314},
+  year={2022},
+  organization={PMLR},
+  preview={brownian-motion.gif},
+  bibtex_show={true},
+  url={https://proceedings.mlr.press/v172/deng22a.html},
+  code={https://github.com/ddrrnn123/Omni-Seg}
+}
+
+@article{deng2021map3d,
+  abbr={IEEE TMI},
+  title={Map3d: registration-based multi-object tracking on 3d serial whole slide images},
+  author={Deng, Ruining and Yang, Haichun and Jha, Aadarsh and Lu, Yuzhe and Chu, Peng and Fogo, Agnes B and Huo, Yuankai},
+  abstract={There has been a long pursuit for precise and reproducible glomerular quantification on renal pathology to leverage both research and practice. When digitizing the biopsy tissue samples using whole slide imaging (WSI), a set of serial sections from the same tissue can be acquired as a stack of images, similar to frames in a video. In radiology, the stack of images (e.g., computed tomography) are naturally used to provide 3D context for organs, tissues, and tumors. In pathology, it is appealing to do a similar 3D assessment. However, the 3D identification and association of large-scale glomeruli on renal pathology is challenging due to large tissue deformation, missing tissues, and artifacts from WSI. In this paper, we propose a novel Multi-object Association for Pathology in 3D (Map3D) method for automatically identifying and associating large-scale cross-sections of 3D objects from routine serial sectioning and WSI. The innovations of the Multi-Object Association for Pathology in 3D (Map3D) method are three-fold: (1) the large-scale glomerular association is formed as a new multi-object tracking (MOT) perspective; (2) the quality-aware whole series registration is proposed to not only provide affinity estimation but also offer automatic kidney-wise quality assurance (QA) for registration; (3) a dual-path association method is proposed to tackle the large deformation, missing tissues, and artifacts during tracking. To the best of our knowledge, the Map3D method is the first approach that enables automatic and large-scale glomerular association across 3D serial sectioning using WSI. Our proposed method Map3D achieved MOTA = 44.6, which is 12.1% higher than the non-deep learning benchmarks.},
+  journal={IEEE transactions on medical imaging},
+  volume={40},
+  number={7},
+  pages={1924--1933},
+  year={2021},
+  publisher={IEEE},
+  preview={brownian-motion.gif},
+  bibtex_show={true},
+  url={https://ieeexplore.ieee.org/abstract/document/9388679},
+  code={https://github.com/hrlblab/Map3D},
+}
+
+@article{nguyen2021circle,
+  abbr={IEEE TMI},
+  title={Circle representation for medical object detection},
+  author={Nguyen, Ethan H and Yang, Haichun and Deng, Ruining and Lu, Yuzhe and Zhu, Zheyu and Roland, Joseph T and Lu, Le and Landman, Bennett A and Fogo, Agnes B and Huo, Yuankai},
+  abstract={Box representation has been extensively used for object detection in computer vision. Such representation is efficacious but not necessarily optimized for biomedical objects (e.g., glomeruli), which play an essential role in renal pathology. In this paper, we propose a simple circle representation for medical object detection and introduce CircleNet, an anchor-free detection framework. Compared with the conventional bounding box representation, the proposed bounding circle representation innovates in three-fold: (1) it is optimized for ball-shaped biomedical objects; (2) The circle representation reduced the degree of freedom compared with box representation; (3) It is naturally more rotation invariant. When detecting glomeruli and nuclei on pathological images, the proposed circle representation achieved superior detection performance and be more rotation-invariant, compared with the bounding box. The code has been made publicly available: https://github.com/hrlblab/CircleNet.},
+  journal={IEEE transactions on medical imaging},
+  volume={41},
+  number={3},
+  pages={746--754},
+  year={2021},
+  publisher={IEEE},
+  preview={brownian-motion.gif},
+  bibtex_show={true},
+  url={https://ieeexplore.ieee.org/abstract/document/9585500},
+  code={https://github.com/hrlblab/CircleNet},
+}
+
+@article{huo2021ai,
+  abbr={KI},
+  title={AI applications in renal pathology},
+  author={Huo, Yuankai and Deng, Ruining and Liu, Quan and Fogo, Agnes B and Yang, Haichun},
+  abstract={The explosive growth of artificial intelligence (AI) technologies, especially deep learning methods, has been translated at revolutionary speed to efforts in AI-assisted healthcare. New applications of AI to renal pathology have recently become available, driven by the successful AI deployments in digital pathology. However, synergetic developments of renal pathology and AI require close interdisciplinary collaborations between computer scientists and renal pathologists. Computer scientists should understand that not every AI innovation is translatable to renal pathology, while renal pathologists should capture high-level principles of the relevant AI technologies. Herein, we provide an integrated review on current and possible future applications in AI-assisted renal pathology, by including perspectives from computer scientists and renal pathologists. First, the standard stages, from data collection to analysis, in full-stack AI-assisted renal pathology studies are reviewed. Second, representative renal pathology-optimized AI techniques are introduced. Last, we review current clinical AI applications, as well as promising future applications with the recent advances in AI.},
+  journal={Kidney international},
+  volume={99},
+  number={6},
+  pages={1309--1320},
+  year={2021},
+  publisher={Elsevier},
+  preview={brownian-motion.gif},
+  bibtex_show={true},
+  url={https://www.sciencedirect.com/science/article/pii/S0085253821001812},
+}
+
+@inproceedings{yang2020circlenet,
+  abbr={MICCAI},
+  title={CircleNet: Anchor-free glomerulus detection with circle representation},
+  author={Yang, Haichun and Deng, Ruining and Lu, Yuzhe and Zhu, Zheyu and Chen, Ye and Roland, Joseph T and Lu, Le and Landman, Bennett A and Fogo, Agnes B and Huo, Yuankai},
+  abstract={Object detection networks are powerful in computer vision, but not necessarily optimized for biomedical object detection. In this work, we propose CircleNet, a simple anchor-free detection method with circle representation for detection of the ball-shaped glomerulus. Different from the traditional bounding box based detection method, the bounding circle (1) reduces the degrees of freedom of detection representation, (2) is naturally rotation invariant, (3) and optimized for ball-shaped objects. The key innovation to enable this representation is the anchor-free framework with the circle detection head. We evaluate CircleNet in the context of detection of glomerulus. CircleNet increases average precision of the glomerulus detection from 0.598 to 0.647. Another key advantage is that CircleNet achieves better rotation consistency compared with bounding box representations.}, 
+  booktitle={Medical Image Computing and Computer Assisted Intervention--MICCAI 2020: 23rd International Conference, Lima, Peru, October 4--8, 2020, Proceedings, Part IV 23},
+  pages={35--44},
+  year={2020},
+  organization={Springer},
+  preview={brownian-motion.gif},
+  bibtex_show={true},
+  url={https://link.springer.com/chapter/10.1007/978-3-030-59719-1_4},
+  code={https://github.com/hrlblab/CircleNet},
+}
+
+
 
 @string{aps = {American Physical Society,}}
 
