@@ -64,7 +64,7 @@ nav_order: 6
 
 • Conference on Neural Information Processing Systems Workshop (NIPSW)
 
-`Co-mentoring rxperience`
+`Co-mentoring experience`
 
 • Juming Xiong, MS BME, Circle representation for medical instance segmentation.
 
