@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Mr. Deng is serving as local organizing committee and virtual session volunteer at `MIDL 2023`.
+Mr. Deng is serving as the local organizing committee and virtual session volunteer at `MIDL 2023`.

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Mr. Deng is serving as program committee at `Med-Neurips 2022`.
+Mr. Deng is serving as the program committee at `Med-Neurips 2022`.
