@@ -9,11 +9,11 @@
   url: https://www.sciencedirect.com/journal/medical-image-analysis
   color: "#BEE1F7"
 
-"IEEE TMI":
+"TMI":
   url: https://www.ieeetmi.org
   color: "#BEE1F7"
 
-"IEEE TBME":
+"TBME":
   url: https://www.embs.org/tbme/
   color: "#BEE1F7"
 
@@ -21,11 +21,11 @@
   url: https://miccai.org
   color: "#EFC3DC"
 
-"MICCAI W":
+"MICCAIW":
   url: https://miccai.org
   color: "#EFC3DC"
 
-"SPIE MI":
+"SPIE":
   url: https://spie.org/conferences-and-exhibitions/medical-imaging#_=_
   color: "#EFC3DC"
 
@@ -41,6 +41,6 @@
   url: https://www.midl.io
   color: "#EFC3DC"
 
-"MIDL S":
+"MIDLS":
   url: https://www.midl.io
   color: "#EFC3DC"
