@@ -34,8 +34,6 @@ nav_order: 6
 
 • Medical Image Analysis (MedIA)
 
-• Advanced Science (AS)
-
 • IEEE Journal of Biomedical and Health Informatics (JBHI)
 
 • Artificial Intelligence in Medicine (AIM)
