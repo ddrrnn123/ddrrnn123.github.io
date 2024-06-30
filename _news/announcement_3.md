@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Two papers are selected as the finalist of Robert F. Wagner All-Conference Best Student Paper Award in `SPIE Medical Imaging 2024`.
+Two papers are selected as `Robert F. Wagner All-Conference Best Student Paper Award Finalist` in `SPIE Medical Imaging 2024`.
