@@ -17,6 +17,7 @@ nav_order: 6
 • [2020   Fall] Grader, EECE-5353-01 Image Processing 
 
 `Serving experience`
+• MICCAI 2024 MOVI Workshop, Program Committee
 
 • MICCAI 2024 KPIs Challenge, Executive Committee
 
@@ -57,6 +58,8 @@ nav_order: 6
 `Conference reviewer`
 
 • International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)
+
+• International Conference on Medical Image Computing and Computer Assisted Intervention Workshop (MICCAIW)
 
 • International Conference on Medical Imaging with Deep Learning (MIDL)
 
