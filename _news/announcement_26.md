@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Mr. Deng was invited to give a talk about "Knowledge-infused Learning In Computational Pathology" at `Weill Cornell Medicine`.
+Mr. Deng is invited to give a talk about "Knowledge-infused Learning In Computational Pathology" at `Weill Cornell Medicine`.

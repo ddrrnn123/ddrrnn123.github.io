@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Mr. Deng was invited to give a talk about "Multimodal Learning & Cross-modality Attention-based Multimodal Fusion Patient Survival Prediction" at `Roche`.
+Mr. Deng is invited to give a talk about "Multimodal Learning & Cross-modality Attention-based Multimodal Fusion Patient Survival Prediction" at `Roche`.

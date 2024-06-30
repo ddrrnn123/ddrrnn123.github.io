@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Mr. Deng received `Student Conference Travel Grant` from SPIE Medical Imaging.
+Mr. Deng receives `Student Conference Travel Grant` from SPIE Medical Imaging.

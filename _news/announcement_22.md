@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper received `C.F. Chen Best Paper Runner-up` award at Vanderbilt.
+One paper receives `C.F. Chen Best Paper Runner-up` award at Vanderbilt.

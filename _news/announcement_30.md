@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Mr. Deng received `Graduate Student Travel Award` from Vanderbilt.
+Mr. Deng receives `Graduate Student Travel Award` from Vanderbilt.
