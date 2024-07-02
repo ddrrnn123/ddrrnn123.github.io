@@ -24,6 +24,7 @@ Mr. Deng is a Ph.D. candidate in the [Department of Computer Science](https://en
 Besides being a research assistant at Vanderbilt University, Mr. Deng was a visiting student at [the University of Notre Dame](https://www.nd.edu), as well as a member of the research staff at [Guangdong Provincial Cardiovascular Institute](https://www.gdghospital.org.cn/en/introductiontotheinstitute/info_itemId_85.html). He has also served as a software engineer intern at [Bridge Investment Group](https://www.bridgeig.com) in Charlotte, NC. Recently, he completed a summer internship at [Roche Diagnostics USA](https://diagnostics.roche.com/us/en/home.html) as an imaging scientist. More professional experience can be found in his latest [resume](https://github.com/ddrrnn123/ddrrnn123.github.io/blob/master/assets/CV/Resume-Ruining_2024_Fulltime.pdf).
 
 `•  We have launched MICCAI 2024 KPIs challenge:` [Link to KPIs challenge](https://sites.google.com/view/kpis2024/home)
+`•  Please join our MICCAI 2024 MOVI Workshop in Morocco:` [Link to MOVI workshop](https://sites.google.com/view/movi2024/home?authuser=0)
 
 <!--Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
