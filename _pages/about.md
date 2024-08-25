@@ -24,7 +24,7 @@ Mr. Deng is a Ph.D. candidate in the [Department of Computer Science](https://en
 Besides being a research assistant at Vanderbilt University, Mr. Deng was a visiting scholar at [the University of Notre Dame](https://www.nd.edu), as well as a member of the research staff at [Guangdong Provincial Cardiovascular Institute](https://www.gdghospital.org.cn/en/introductiontotheinstitute/info_itemId_85.html). He has also served as a software engineer intern at [Bridge Investment Group](https://www.bridgeig.com) in Charlotte, NC. Recently, he completed a summer internship at [Roche Diagnostics USA](https://diagnostics.roche.com/us/en/home.html) as an imaging scientist. More professional experience can be found in his latest [resume](https://github.com/ddrrnn123/ddrrnn123.github.io/blob/master/assets/CV/Resume-Ruining_2024_Fulltime.pdf).
 
 
-`•  Mr. Deng will be joining Weill Cornell Medicine as an AI Instructor in November 2024. He welcomes opportunities for future collaboration and can be reached at rud4004@med.cornell.edu.`
+`•  Mr. Deng will be joining Weill Cornell Medicine as an AI Instructor in November 2024. He welcomes opportunities for future collaboration and can be reached at` rud4004@med.cornell.edu.
 
 `•  We have launched MICCAI 2024 KPIs challenge:` [Link to KPIs challenge](https://sites.google.com/view/kpis2024/home)
 
