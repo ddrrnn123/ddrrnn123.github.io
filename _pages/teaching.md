@@ -7,6 +7,7 @@ nav: true
 nav_order: 6
 ---
 `Teaching experience`
+• [2024 Fall] Guest Lecturer, DS-5660 Deep Learning
 
 • [2024 Spring] Guest Lecturer, CS-4267 Deep Learning
 
@@ -42,6 +43,8 @@ nav_order: 6
 • Artificial Intelligence in Medicine (AIM)
 
 • Pattern Recognition (PR)
+
+• Scientific Reports (SP)
 
 • Journal of Medical Imaging (JMI)
 

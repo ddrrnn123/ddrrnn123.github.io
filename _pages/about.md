@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://hrlblab.github.io'>Biomedical Data Representation and Learning Lab at Vanderbilt University</a>
+subtitle: <a href='https://weill.cornell.edu'>Weill Cornell Medicine</a>
 
 profile:
   align: right
   image: main_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>FGH 333 Vanderbilt University</p>
-    <p>2201 West End Ave</p>
-    <p>Nashville, TN, 37235</p>
+    <p>Tata Innovation Center, 5A</p>
+    <p>11 E Loop Rd</p>
+    <p>New York, NY, 10044</p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -19,16 +19,12 @@ social: true # includes social icons at the bottom of the page
 ---
 
 
-Mr. Deng is a Ph.D. candidate in the [Department of Computer Science](https://engineering.vanderbilt.edu/departments/computer-science/) at [Vanderbilt University](https://www.vanderbilt.edu), advised by Dr. [Yuankai Huo](https://hrlblab.github.io). He conducts research in biomedical data analysis, particularly in digital pathology and gene expression data. His efforts are centered on `infusing domain knowledge` from the medical field into the design of `deep learning` models to assist in clinical research. Mr. Deng's research principles include building AI computer vision tools with cross-modal knowledge, advancing clinical research with AI-powered tools, democratizing pathology research, and incorporating foundation models to create a panoramic pathology atlas. Please find his latest [CV](https://github.com/ddrrnn123/ddrrnn123.github.io/blob/master/assets/CV/CV_2024Spring.pdf) and [full publications](https://scholar.google.com/citations?hl=en&user=B3UojrgAAAAJ&view_op=list_works). 
+Dr. Deng is an `AI Instructor` at [Weill Cornell Medicine](https://weill.cornell.edu), under the primary supervision of Dr. [Mert Sabuncu](https://sabuncu.engineering.cornell.edu). He received his Ph.D. degree in the [Department of Computer Science](https://engineering.vanderbilt.edu/departments/computer-science/) at [Vanderbilt University](https://www.vanderbilt.edu), advised by Dr. [Yuankai Huo](https://hrlblab.github.io). He conducts research in biomedical data analysis, particularly in digital pathology and gene expression data. His efforts are centered on `infusing domain knowledge` from the medical field into the design of `deep learning` models to assist in clinical research. Dr. Deng's research principles include building AI computer vision tools with cross-modal knowledge, advancing clinical research with AI-powered tools, democratizing pathology research, and incorporating foundation models to create a panoramic pathology atlas. Please find his latest [CV](https://github.com/ddrrnn123/ddrrnn123.github.io/blob/master/assets/CV/CV_2024Spring.pdf) and [full publications](https://scholar.google.com/citations?hl=en&user=B3UojrgAAAAJ&view_op=list_works). 
 
-Besides being a research assistant at Vanderbilt University, Mr. Deng was a visiting scholar at [the University of Notre Dame](https://www.nd.edu), as well as a member of the research staff at [Guangdong Provincial Cardiovascular Institute](https://www.gdghospital.org.cn/en/introductiontotheinstitute/info_itemId_85.html). He has also served as a software engineer intern at [Bridge Investment Group](https://www.bridgeig.com) in Charlotte, NC. Recently, he completed a summer internship at [Roche Diagnostics USA](https://diagnostics.roche.com/us/en/home.html) as an imaging scientist. More professional experience can be found in his latest [resume](https://github.com/ddrrnn123/ddrrnn123.github.io/blob/master/assets/CV/Resume-Ruining_2024_Fulltime.pdf).
+Besides being a research assistant at Vanderbilt University, Dr. Deng was a visiting scholar at [the University of Notre Dame](https://www.nd.edu), as well as a member of the research staff at [Guangdong Provincial Cardiovascular Institute](https://www.gdghospital.org.cn/en/introductiontotheinstitute/info_itemId_85.html). He has also served as a software engineer intern at [Bridge Investment Group](https://www.bridgeig.com) in Charlotte, NC. Recently, he completed a summer internship at [Roche Diagnostics USA](https://diagnostics.roche.com/us/en/home.html) as an imaging scientist. More professional experience can be found in his latest [resume](https://github.com/ddrrnn123/ddrrnn123.github.io/blob/master/assets/CV/Resume-Ruining_2024_Fulltime.pdf).
 
-Mr. Deng will be joining [Weill Cornell Medicine](https://weill.cornell.edu) as an `AI Instructor` in November 2024, under the primary supervision of Dr. [Mert Sabuncu](https://sabuncu.engineering.cornell.edu). We welcomes opportunities for future collaboration and can be reached at rud4004@med.cornell.edu.
+`We welcomes opportunities for future collaboration and can be reached at rud4004@med.cornell.edu.`
 
-
-`•  We have launched MICCAI 2024 KPIs challenge:` [Link to KPIs challenge](https://sites.google.com/view/kpis2024/home)
-
-`•  Please join our MICCAI 2024 MOVI Workshop in Morocco:` [Link to MOVI workshop](https://sites.google.com/view/movi2024/home?authuser=0)
 
 <!--Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
