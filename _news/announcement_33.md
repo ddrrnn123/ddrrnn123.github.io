@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Mr. Deng receives Distinguished Reviewer Certificate from `IEEE Transactions on Medical Imaging`.
+Mr. Deng receives Gold-level Distinguished Reviewer Certificate from `IEEE Transactions on Medical Imaging`.
