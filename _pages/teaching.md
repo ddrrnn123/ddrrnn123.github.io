@@ -7,6 +7,7 @@ nav: true
 nav_order: 6
 ---
 `Teaching experience`
+
 • [2024 Fall] Guest Lecturer, DS-5660 Deep Learning
 
 • [2024 Spring] Guest Lecturer, CS-4267 Deep Learning
@@ -18,6 +19,7 @@ nav_order: 6
 • [2020   Fall] Grader, EECE-5353-01 Image Processing 
 
 `Serving experience`
+
 • MICCAI 2024 MOVI Workshop, Program Committee
 
 • MICCAI 2024 KPIs Challenge, Executive Committee
