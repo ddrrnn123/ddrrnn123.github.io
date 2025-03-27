@@ -36,23 +36,37 @@ nav_order: 6
 
 • Medical Image Analysis (MedIA)
 
-• Advanced Science (AS)
-
 • IEEE Journal of Biomedical and Health Informatics (JBHI)
 
+• IEEE Transactions on Biomedical Engineering (TBME)
+
+• Computers in Biology and Medicine (CBMI)
+
 • Artificial Intelligence in Medicine (AIM)
-
-• Pattern Recognition (PR)
-
-• Scientific Reports (SP)
 
 • Journal of Medical Imaging (JMI)
 
 • Journal of Machine Learning for Biomedical Imaging (MELBA)
 
-• Plos One (PO) 
+• IEEE Transactions on Neural Networks and Learning System (TNNLS)
 
-• PNAS Nexus (PN)
+• Nature Communications medicine (Nature CM)
+
+• Proceedings of the National Academy of Sciences (PNAS)
+
+• Advanced Science (AS)
+
+• Pattern Recognition (PR)
+
+• IEEE Transaction on Mobile Computing (TMC)
+
+• IEEE Transactions on Multimedia (TMM)
+
+• IEEE Transactions on Image Processing (TIP)
+
+• Scientific Reports (SP)
+
+• Plos One (PO) 
 
 • Engineering Application of Artificial Intelligence (EAAI)
 
