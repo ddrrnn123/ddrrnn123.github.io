@@ -2,6 +2,7 @@
 ---
 
 @article{deng2025casc,
+  abbr={MIDL},
   title={CASC-AI: Consensus-aware Self-corrective Learning for Noise Cell Segmentation},
   author={Deng, Ruining and Yang, Yihe and Pisapia, David J and Liechty, Benjamin and Zhu, Junchao and Xiong, Juming and Guo, Junlin and Lu, Zhengyi and Wang, Jiacheng and Yao, Xing and others},
   abstract={Multi-class cell segmentation in high-resolution gigapixel whole slide images (WSI) is crucial for various clinical applications. However, training such models typically requires labor-intensive, pixel-wise annotations by domain experts. Recent efforts have democratized this process by involving lay annotators without medical expertise. However, conventional non-agent-based approaches struggle to handle annotation noise adaptively, as they lack mechanisms to mitigate false positives (FP) and false negatives (FN) at both the image-feature and pixel levels. In this paper, we propose a consensus-aware self-corrective AI agent that leverages the Consensus Matrix to guide its learning process. The Consensus Matrix defines regions where both the AI and annotators agree on cell and non-cell annotations, which are prioritized with stronger supervision. Conversely, areas of disagreement are adaptively weighted based on their feature similarity to high-confidence agreement regions, with more similar regions receiving greater attention. Additionally, contrastive learning is employed to separate features of noisy regions from those of reliable agreement regions by maximizing their dissimilarity. This paradigm enables the AI to iteratively refine noisy labels, enhancing its robustness. Validated on one real-world lay-annotated cell dataset and two simulated noisy datasets, our method demonstrates improved segmentation performance, effectively correcting FP and FN errors and showcasing its potential for training robust models on noisy datasets. The official implementation and cell annotations are publicly available at https://github.com/ddrrnn123/CASC-AI.}
@@ -11,6 +12,8 @@
   code={https://github.com/ddrrnn123/CASC-AI},
   year={2025}
 }
+
+
 
 @article{zhu2024asign,
   abbr={CVPR},
