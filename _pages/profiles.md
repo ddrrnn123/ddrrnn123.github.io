@@ -14,15 +14,19 @@ profiles:
     content: RuiningDeng.md
     image_circular: false # crops the image to make it circular
     more_info: >
+    <div class="profile-info-small">
       <p>Ruining Deng</p>
       <p>Instructor of Artificatial Intelligence</p>
       <p>Weill Cornell Medicine</p>
+    </div>
   - align: left
     image: prof_pic.jpg
     content: NewOpening.md
     image_circular: false # crops the image to make it circular
     more_info: >
+    <div class="profile-info-small">
       <p>Your Name</p>
       <p>Your Position</p>
       <p>Your Institute</p>
+    </div>
 ---
