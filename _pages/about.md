@@ -23,8 +23,8 @@ Dr. Deng is an `AI Instructor` at [Weill Cornell Medicine](https://weill.cornell
 
 Besides being a research assistant at Vanderbilt University, Dr. Deng was a visiting scholar at [the University of Notre Dame](https://www.nd.edu), as well as a member of the research staff at [Guangdong Provincial Cardiovascular Institute](https://www.gdghospital.org.cn/en/introductiontotheinstitute/info_itemId_85.html). He has also served as a software engineer intern at [Bridge Investment Group](https://www.bridgeig.com) in Charlotte, NC. Recently, he completed a summer internship at [Roche Diagnostics USA](https://diagnostics.roche.com/us/en/home.html) as an imaging scientist. More professional experience can be found in his latest [resume](https://github.com/ddrrnn123/ddrrnn123.github.io/blob/master/assets/CV/Resume-Ruining_2024_Fulltime.pdf).
 
-`We welcomes opportunities for future collaboration and can be reached at rud4004@med.cornell.edu.`
 
+`We are looking for self-motivated graduate and undergraduate students and interns to join our team! Our research focuses on machine learning, computer vision, and artificial intelligence for healthcare applications. If you're passionate about these areas and interested in contributing to impactful, interdisciplinary research, you're encouraged to send your CV (and other materials, if available) to: 📧 rud4004@med.cornell.edu`
 
 <!--Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
