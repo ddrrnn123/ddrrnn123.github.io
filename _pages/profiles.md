@@ -22,6 +22,7 @@ profiles:
     more_info: >
       <p>Your Name</p>
 ---
+
 <h2 style="text-align: center;">Alumni</h2>
 
 <table>
