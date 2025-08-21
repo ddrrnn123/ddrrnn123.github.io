@@ -23,6 +23,7 @@ nav_order: 6
 • [2020   Fall] Grader, Vanderbilt University, EECE-5353-01 Image Processing 
 
 `Serving experience`
+
 • MIDL 2026, Program Chair
 
 • MICCAI 2025, Area Chair
