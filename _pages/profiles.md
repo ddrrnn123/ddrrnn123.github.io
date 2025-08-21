@@ -22,3 +22,67 @@ profiles:
     more_info: >
       <p>Your Name</p>
 ---
+<h2 style="text-align: center;">Alumni</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Degree</th>
+      <th>Program</th>
+      <th>Leave Lab</th>
+      <th>First Job Position</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Quan Liu</td>
+      <td>PhD</td>
+      <td>CS</td>
+      <td>2024</td>
+      <td>Advanced AI/ML Scientist at Accenture</td>
+      <td>HRLB PhD #001</td>
+    </tr>
+    <tr>
+      <td>Ruining Deng</td>
+      <td>PhD</td>
+      <td>CS</td>
+      <td>2024</td>
+      <td>Instructor of Artificial Intelligence at Weill Cornell Medicine</td>
+      <td>HRLB PhD #002</td>
+    </tr>
+    <tr>
+      <td>Can Cui</td>
+      <td>PhD</td>
+      <td>CS</td>
+      <td>2024</td>
+      <td>Research Scientist at Meta</td>
+      <td>HRLB PhD #003</td>
+    </tr>
+    <tr>
+      <td>Ho Hin (Peter) Lee</td>
+      <td>PhD</td>
+      <td>CS</td>
+      <td>2023</td>
+      <td>Research Scientist at Microsoft Research</td>
+      <td>Co-advise with Dr. Bennett Landman</td>
+    </tr>
+    <tr>
+      <td>Yucheng Tang</td>
+      <td>PhD</td>
+      <td>ECE</td>
+      <td>2022</td>
+      <td>Research Scientist at NVIDIA</td>
+      <td>Co-advise with Dr. Bennett Landman</td>
+    </tr>
+    <tr>
+      <td>Riqiang Gao</td>
+      <td>PhD</td>
+      <td>CS</td>
+      <td>2022</td>
+      <td>Research Scientist at Siemens Healthineers</td>
+      <td>Co-advise with Dr. Bennett Landman</td>
+    </tr>
+  </tbody>
+</table>
