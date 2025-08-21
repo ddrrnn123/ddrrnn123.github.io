@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper are accepted by `MICCAI 2025` as orals. Congratulations to Daniel!
+One paper are accepted by `MICCAI 2025` as Orals. Congratulations to Daniel!
