@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Dr. Deng receives `Outstanding graduate in Research` from Vanderbilt.
+Dr. Deng receives `Outstanding Graduate in Research` from Vanderbilt.
