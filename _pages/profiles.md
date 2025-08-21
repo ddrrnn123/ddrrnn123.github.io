@@ -12,9 +12,9 @@ profiles:
   - align: right
     image: main_pic.jpg
     content: RuiningDeng.md
-    image_circular: false # crops the image to make it circular
+    image_circular: true # crops the image to make it circular
     more_info: >
-    <div class="profile-info-small">
+    <div style="font-size: 0.85em;">
       <p>Ruining Deng</p>
       <p>Instructor of Artificatial Intelligence</p>
       <p>Weill Cornell Medicine</p>
@@ -22,9 +22,9 @@ profiles:
   - align: left
     image: prof_pic.jpg
     content: NewOpening.md
-    image_circular: false # crops the image to make it circular
+    image_circular: true # crops the image to make it circular
     more_info: >
-    <div class="profile-info-small">
+    <div style="font-size: 0.85em;">
       <p>Your Name</p>
       <p>Your Position</p>
       <p>Your Institute</p>
