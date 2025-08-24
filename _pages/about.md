@@ -9,7 +9,7 @@ profile:
   image: main_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Tata Innovation Center, 5A</p>
+    <p>Tata Innovation Center</p>
     <p>11 E Loop Rd</p>
     <p>New York, NY, 10044</p>
 
