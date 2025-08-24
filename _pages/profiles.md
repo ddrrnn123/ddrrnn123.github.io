@@ -15,6 +15,28 @@ profiles:
     image_circular: true # crops the image to make it circular
     more_info: >
       <p>Ruining Deng</p>
+      <p>Instructor</p>
+  - align: right
+    image: DanielGuo.jpg
+    content: DaneilGuo.md
+    image_circular: true # crops the image to make it circular
+    more_info: >
+      <p>Daniel Guo</p>
+      <p>Undergrad</p>
+  - align: right
+    image: LeiyueZhao.jpg
+    content: LeiyueZhao.md
+    image_circular: true # crops the image to make it circular
+    more_info: >
+      <p>Leiyue Zhao</p>
+      <p>Undergrad</p>
+  - align: right
+    image: TianyuShi.jpeg
+    content: TianyuShi.md
+    image_circular: true # crops the image to make it circular
+    more_info: >
+      <p>Tianyu Shi</p>
+      <p>Undergrad</p>
   - align: left
     image: prof_pic.jpg
     content: NewOpening.md
