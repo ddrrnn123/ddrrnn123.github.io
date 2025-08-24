@@ -14,9 +14,8 @@ profiles:
     content: RuiningDeng.md
     image_circular: true # crops the image to make it circular
     more_info: >
-      <p>Ruining Deng</p>
-      <p>Instructor</p>
-      <p></p>
+      <p>Ruining Deng       </p>
+      <p>Instructor         </p>
   - align: right
     image: DanielGuo.jpg
     content: DanielGuo.md
