@@ -3,5 +3,7 @@ My name is Daniel (Zhenhao) Guo, an undergraduate student at New York University
 Outside of academics, I enjoy staying active through fitness and cooking healthy meals. During the winter, I like going on road trips with friends to go skiing.
 
 • Undergrad
+
 • New York University
+
 • 2025 - present
