@@ -14,9 +14,9 @@ profiles:
     content: RuiningDeng.md
     image_circular: true # crops the image to make it circular
     more_info: >
-      <p>Tata Innovation Center</p>
-      <p>11 E Loop Rd</p>
-      <p>New York, NY, 10044</p>
+      <p>Ruining Deng</p>
+      <p>Instructor</p>
+      <p></p>
   - align: right
     image: DanielGuo.jpg
     content: DanielGuo.md
