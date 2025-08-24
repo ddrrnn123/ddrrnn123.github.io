@@ -3,5 +3,7 @@ I am currently an undergraduate student at the Southern University of Science an
 Outside of research, I am passionate about painting and photography, and I find inspiration in different forms of artistic expression.
 
 • Undergrad
+
 • Southern University of Science and Technology 
+
 • 2025 - present
