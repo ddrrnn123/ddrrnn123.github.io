@@ -18,7 +18,7 @@ profiles:
       <p>Instructor</p>
   - align: right
     image: DanielGuo.jpg
-    content: DaneilGuo.md
+    content: DanielGuo.md
     image_circular: true # crops the image to make it circular
     more_info: >
       <p>Daniel Guo</p>
