@@ -40,7 +40,7 @@ profiles:
     more_info: >
       <p>Tianyu Shi</p>
   - align: right
-    image: HongjinFang.jpg
+    image: HongjinFang.png
     content: HongjinFang.md
     image_circular: true # crops the image to make it circular
     more_info: >
