@@ -16,6 +16,12 @@ profiles:
     more_info: >
       <p>Ruining Deng</p>
   - align: right
+    image: DanielReisenbuechler.png
+    content: DanielReisenbuechler.md
+    image_circular: true # crops the image to make it circular
+    more_info: >
+      <p>Daniel Reisenbuechler</p>
+  - align: right
     image: DanielGuo.jpg
     content: DanielGuo.md
     image_circular: true # crops the image to make it circular

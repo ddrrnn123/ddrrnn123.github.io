@@ -2,7 +2,7 @@ I am a fourth-year Computer Science major at Sichuan University in Chengdu, Chin
 
 In my spare time, I enjoy painting, reading, taking walks, and practicing Chinese calligraphy.
 
-• Undergrad
+• Undergrad Student
 
 • Sichuan University
 
