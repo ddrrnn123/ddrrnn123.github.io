@@ -4,6 +4,6 @@ Outside of research, I am passionate about painting and photography, and I find 
 
 • Undergrad Student
 
-• Southern University of Science and Technology 
+• Southern University of Science and Technology
 
 • 2025 - present
