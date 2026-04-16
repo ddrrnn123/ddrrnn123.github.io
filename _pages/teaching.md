@@ -8,6 +8,8 @@ nav_order: 6
 ---
 `Teaching experience`
 
+• [2025 Fall] Guest Lecturer, Aalto University, AI in Health Technologies
+
 • [2025 Spring] Guest Lecturer, Weill Cornell Medicine, BME MS AI in Medical Imaging
 
 • [2025 Spring] Guest Lecturer, Cornell Tech, CS-5304 Data Science in the Wild
