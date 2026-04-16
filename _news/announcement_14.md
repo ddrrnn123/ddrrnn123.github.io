@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Two paper are accepted by `SPIE Medical Imaging 2023`.
+2 papers are accepted by `SPIE Medical Imaging 2023`.
