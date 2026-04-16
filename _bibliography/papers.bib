@@ -4,10 +4,12 @@
   abbr={CVPR},
   title={BackSplit: The Importance of Sub-dividing the Background in Biomedical Lesion Segmentation},
   author={Saluja, Rachit and Cihangir, Asli and Deng, Ruining and Paetzold, Johannes C and Liu, Fengbei and Sabuncu, Mert R},
+  abstract={Segmenting small lesions in medical images remains notoriously difficult. Most prior work tackles this challenge by either designing better architectures, loss functions, or data augmentation schemes; and collecting more labeled data. We take a different view, arguing that part of the problem lies in how the background is modeled. Common lesion segmentation collapses all non-lesion pixels into a single "background" class, ignoring the rich anatomical context in which lesions appear. In reality, the background is highly heterogeneous-composed of tissues, organs, and other structures that can now be labeled manually or inferred automatically using existing segmentation models. In this paper, we argue that training with fine-grained labels that sub-divide the background class, which we call BackSplit, is a simple yet powerful paradigm that can offer a significant performance boost without increasing inference costs. From an information theoretic standpoint, we prove that BackSplit increases the expected Fisher Information relative to conventional binary training, leading to tighter asymptotic bounds and more stable optimization. With extensive experiments across multiple datasets and architectures, we empirically show that BackSplit consistently boosts small-lesion segmentation performance, even when auxiliary labels are generated automatically using pretrained segmentation models. Additionally, we demonstrate that auxiliary labels derived from interactive segmentation frameworks exhibit the same beneficial effect, demonstrating its robustness, simplicity, and broad applicability.},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   year={2026},
   preview={Backsplit.png},
   bibtex_show={true},
+  html={https://arxiv.org/abs/2511.19394},
 }
 
 
@@ -27,11 +29,13 @@
   abbr={MIDL},
   title={SCR2-ST: Combine Single Cell with Spatial Transcriptomics for Efficient Active Sampling via Reinforcement Learning},
   author={Zhu, Junchao and Deng, Ruining and Guo, Junlin and Yao, Tianyuan and Qu, Chongyu and Xiong, Juming and Lu, Siqi and Lu, Zhengyi and Zhu, Yanfan and Lionts, Marilyn and others},
+  abstract={Spatial transcriptomics (ST) is an emerging technology that enables researchers to investigate the molecular relationships underlying tissue morphology. However, acquiring ST data remains prohibitively expensive, and traditional fixed-grid sampling strategies lead to redundant measurements of morphologically similar or biologically uninformative regions, thus resulting in scarce data that constrain current methods. The well-established single-cell sequencing field, however, could provide rich biological data as an effective auxiliary source to mitigate this limitation. To bridge these gaps, we introduce SCR2-ST, a unified framework that leverages single-cell prior knowledge to guide efficient data acquisition and accurate expression prediction. SCR2-ST integrates a single-cell guided reinforcement learning-based (SCRL) active sampling and a hybrid regression-retrieval prediction network SCR2Net. SCRL combines single-cell foundation model embeddings with spatial density information to construct biologically grounded reward signals, enabling selective acquisition of informative tissue regions under constrained sequencing budgets. SCR2Net then leverages the actively sampled data through a hybrid architecture combining regression-based modeling with retrieval-augmented inference, where a majority cell-type filtering mechanism suppresses noisy matches and retrieved expression profiles serve as soft labels for auxiliary supervision. We evaluated SCR2-ST on three public ST datasets, demonstrating SOTA performance in both sampling efficiency and prediction accuracy, particularly under low-budget scenarios.},
   booktitle={International Conference on Medical Imaging with Deep Learning},
   year={2026},
   organization={PMLR},
   preview={SCR2-ST.png},
   bibtex_show={true},
+  html={https://arxiv.org/abs/2512.13635},
 }
 
 
@@ -39,6 +43,7 @@
   abbr={SPIE},
   title={CoFi: a fast coarse-to-fine few-shot pipeline for glomerular basement membrane segmentation},
   author={Fang, Hongjin and Reisenb{\"u}chler, Daniel and Ikemura, Kenji and Sabuncu, Mert and Yang, Yihe and Deng, Ruining},
+  abstract={Accurate segmentation of the glomerular basement membrane (GBM) in electron microscopy (EM) images is fundamental for quantifying membrane thickness and supporting the diagnosis of various kidney diseases. While supervised deep learning approaches achieve high segmentation accuracy, their reliance on extensive pixel-level annotation renders them impractical for clinical workflows. Few-shot learning can reduce this annotation burden but often struggles to capture the fine structural details necessary for GBM analysis. In this study, we introduce CoFi, a fast and efficient coarse-to-fine few-shot segmentation pipeline designed for GBM delineation in EM images. CoFi first trains a lightweight neural network using only three annotated images to produce an initial coarse segmentation mask. This mask is then automatically processed to generate high-quality point prompts with morphology-aware pruning, which are subsequently used to guide SAM in refining the segmentation. The proposed method achieved exceptional GBM segmentation performance, with a Dice coefficient of 74.54% and an inference speed of 1.9 FPS. We demonstrate that CoFi not only alleviates the annotation and computational burdens associated with conventional methods, but also achieves accurate and reliable segmentation results. The pipeline's speed and annotation efficiency make it well-suited for research and hold strong potential for clinical applications in renal pathology.},
   booktitle={Medical Imaging 2026: Digital and Computational Pathology},
   volume={13932},
   pages={218--225},
@@ -46,6 +51,8 @@
   organization={SPIE},
   preview={CoFi.png},
   bibtex_show={true},
+  html={https://arxiv.org/abs/2508.11469},
+  code={https://github.com/ddrrnn123/CoFi},
 }
 
 
@@ -53,6 +60,7 @@
   abbr={SPIE},
   title={DyMorph-B2I: dynamic and morphology-guided binary-to-instance segmentation for renal pathology},
   author={Zhao, Leiyue and Yang, Yuechen and Zhu, Yanfan and Guo, Junlin and Yang, Haichun and Huo, Yuankai and Simonson, Paul D and Ikemura, Kenji and Sabuncu, Mert R and Yang, Yihe and Deng, Ruining},
+  abstract={Accurate morphological quantification of renal pathology functional units relies on instance-level segmentation, yet most existing datasets and automated methods provide only binary (semantic) masks, limiting the precision of downstream analyses. Although classical post-processing techniques such as watershed, morphological operations, and skeletonization, are often used to separate semantic masks into instances, their individual effectiveness is constrained by the diverse morphologies and complex connectivity found in renal tissue. In this study, we present DyMorph-B2I, a dynamic, morphology-guided binary-to-instance segmentation pipeline tailored for renal pathology. Our approach integrates watershed, skeletonization, and morphological operations within a unified framework, complemented by adaptive geometric refinement and customizable hyperparameter tuning for each class of functional unit. Through systematic parameter optimization, DyMorph-B2I robustly separates adherent and heterogeneous structures present in binary masks. Experimental results demonstrate that our method outperforms individual classical approaches and naïve combinations, enabling superior instance separation and facilitating more accurate morphometric analysis in renal pathology workflows.},
   booktitle={Medical Imaging 2026: Digital and Computational Pathology},
   volume={13932},
   pages={208--217},
@@ -60,6 +68,8 @@
   organization={SPIE},
   preview={DyMorph-B2I.png},
   bibtex_show={true},
+  html={https://arxiv.org/abs/2508.15208},
+  code={https://github.com/ddrrnn123/DyMorph-B2I},
 }
 
 
@@ -67,6 +77,7 @@
   abbr={SPIE},
   title={Glo-VLMs: leveraging vision-language models for fine-grained diseased glomerulus classification},
   author={Guo, Zhenhao and Saluja, Rachit and Fang, Hongjin and Yao, Tianyuan and Liu, Quan and Huo, Yuankai and Liechty, Benjamin and Pisapia, David J and Ikemura, Kenji and Sabuncu, Mert R and others},
+  abstract={Vision-language models (VLMs) have shown considerable potential in digital pathology, yet their effectiveness remains limited for fine-grained, disease-specific classification tasks such as distinguishing between glomerular subtypes. The subtle morphological variations among these subtypes, combined with the difficulty of aligning visual patterns with precise clinical terminology, make automated diagnosis in renal pathology particularly challenging. In this work, we explore how large pretrained VLMs can be effectively adapted to perform fine-grained glomerular classification, even in scenarios where only a small number of labeled examples are available. We introduce Glo-VLMs, a systematic framework designed to explore the adaptation of VLMs to fine-grained glomerular classification in data-constrained settings. Our approach leverages curated pathology images alongside clinical text prompts to facilitate joint image-text representation learning for nuanced renal pathology subtypes. By assessing various VLMs architectures and adaptation strategies under a few-shot learning paradigm, we explore how both the choice of method and the amount of labeled data impact model performance in clinically relevant scenarios. To ensure a fair comparison, we evaluate all models using standardized multi-class metrics. As a result, fine-tuning the VLMs achieved 0.7416 accuracy, 0.9045 macro-AUC, and 0.5277 F1-score with only 8 shots per class, demonstrating that even with highly limited supervision, foundation models can be effectively adapted for fine-grained medical image classification.},
   booktitle={Medical Imaging 2026: Digital and Computational Pathology},
   volume={13932},
   pages={54--61},
@@ -74,6 +85,7 @@
   organization={SPIE},
   preview={Glo-VLM.png},
   bibtex_show={true},
+  html={https://arxiv.org/abs/2508.15960},
 }
 
 
@@ -81,6 +93,7 @@
   abbr={SPIE},
   title={M$^3$-GloDets: Multi-region and multi-scale analysis of fine-grained diseased glomerular detection},
   author={Shi, Tianyu and He, Xinzi and Fang, Hongjin and Ikemura, Kenji and Sabuncu, Mert R and Yang, Yihe and Deng, Ruining},
+  abstract={Accurate detection of diseased glomeruli is fundamental to progress in renal pathology and underpins the delivery of reliable clinical diagnoses. Although recent advances in computer vision have produced increasingly sophisticated detection algorithms, the majority of research efforts have focused on normal glomeruli or instances of global sclerosis, leaving the wider spectrum of diseased glomerular subtypes comparatively understudied. The nuanced and highly variable morphological characteristics that define these disease variants frequently elude even the most advanced computational models. Moreover, ongoing debate surrounds the choice of optimal imaging magnifications and region-of-view dimensions for fine-grained glomerular analysis. To bridge these gaps, we present M^3-GloDet, a systematic framework designed to enable thorough evaluation of detection models across a broad continuum of regions, scales, and classes. Within this framework, we evaluate both long-standing benchmark architectures and recently introduced state-of-the-art models, using an experimental design that reflects the diversity of region-of-interest sizes and imaging resolutions encountered in routine digital renal pathology. We found that intermediate patch sizes offered the best balance between context and efficiency, and moderate magnifications enhanced generalization by reducing overfitting. Through systematic comparison on a multi-class diseased glomerular dataset, our aim is to advance the understanding of model strengths and limitations, and to offer actionable insights for the refinement of automated detection strategies and clinical workflows in the digital pathology domain.},
   booktitle={Medical Imaging 2026: Digital and Computational Pathology},
   volume={13932},
   pages={258--266},
@@ -88,6 +101,7 @@
   organization={SPIE},
   preview={GloDet.png},
   bibtex_show={true},
+  html={https://arxiv.org/abs/2508.17666},
 }
 
 
@@ -95,12 +109,15 @@
   abbr={MICCAI},
   title={Top-Down Attention-Based Multiple Instance Learning for Whole Slide Image Analysis},
   author={Reisenb{\"u}chler, Daniel and Deng, Ruining and Matek, Christian and Feuerhake, Friedrich and Merhof, Dorit},
+  abstract={Multiple instance learning (MIL) has become the de facto standard approach for whole-slide image analysis in computational pathology (CPath). While instance-wise attention tends to miss correlations between instances, self-attention can capture these interactions, but remains agnostic to the particular task. To address this issue, we introduce Top-Down Attention-based Multiple Instance Learning (TDA-MIL), an architecture that first learns a general representation from the data via self-attention in an initial inference step, then identifies task-relevant instances through a feature selection module, and finally refines these representations by injecting the selected instances back into the attention mechanism for a second inference step. By focusing on task-specific signals, TDA-MIL effectively discerns subtle, yet significant, regions within each slide, leading to more precise classification. Extensive experiments on detecting lymph node metastasis in breast cancer, biomarker screening for microsatellite instability in different organs, and challenging molecular status prediction for HER2 in breast cancer show that TDA-MIL consistently surpasses other MIL baselines, underscoring the effectiveness of our proposed task-relevant refocusing and its broad applicability across CPath tasks.},
   booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
   pages={651--660},
   year={2025},
   organization={Springer},
   preview={TopDown.png},
   bibtex_show={true},
+  html={https://papers.miccai.org/miccai-2025/0933-Paper2460.html},
+  code={https://github.com/agentdr1/TDA_MIL},
 }
 
 
@@ -108,11 +125,14 @@
   abbr={MIDL},
   title={Magnet: Multi-level attention graph network for predicting high-resolution spatial transcriptomics},
   author={Zhu, Junchao and Deng, Ruining and Yao, Tianyuan and Xiong, Juming and Qu, Chongyu and Guo, Junlin and Lu, Siqi and Tang, Yucheng and Xu, Daguang and Yin, Mengmeng and others},
+  abstract={The rapid development of spatial transcriptomics (ST) offers new opportunities to explore the gene expression patterns within the spatial microenvironment. Current research integrates pathological images to infer gene expression, addressing the high costs and time-consuming processes to generate spatial transcriptomics data. However, as spatial transcriptomics resolution continues to improve, existing methods remain primarily focused on gene expression prediction at low-resolution spot levels. These methods face significant challenges, especially the information bottleneck, when they are applied to high-resolution HD data. To bridge this gap, this paper introduces MagNet, a multi-level attention graph network designed for accurate prediction of high-resolution HD data. MagNet employs cross-attention layers to integrate features from multi-resolution image patches hierarchically and utilizes a GAT-Transformer module to aggregate neighborhood information. By integrating multilevel features, MagNet overcomes the limitations posed by low-resolution inputs in predicting high-resolution gene expression. We systematically evaluated MagNet and existing ST prediction models on both a private spatial transcriptomics dataset and a public dataset at three different resolution levels. The results demonstrate that MagNet achieves state-of-the-art performance at both spot level and high-resolution bin levels, providing a novel methodology and benchmark for future research and applications in high-resolution HD-level spatial transcriptomics.},
   booktitle={International Conference on Medical Imaging with Deep Learning},
   year={2025},
   organization={PMLR},
   preview={MagNet.png},
   bibtex_show={true},
+  html={https://arxiv.org/abs/2502.21011},
+  code={https://github.com/Junchao-Zhu/MagNet},
 }
 
 
