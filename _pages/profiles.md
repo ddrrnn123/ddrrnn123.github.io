@@ -44,7 +44,7 @@ profiles:
     content: HongjinFang.md
     image_circular: true # crops the image to make it circular
     more_info: >
-      <p>Hongjin Fang</p>  
+      <p>Hongjin Fang</p>
   - align: left
     image: prof_pic.jpg
     content: NewOpening.md
