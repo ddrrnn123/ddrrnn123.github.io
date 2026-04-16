@@ -26,6 +26,8 @@ nav_order: 6
 
 `Serving experience`
 
+• MICCAI 2026, Area Chair
+
 • MIDL 2026, Program Chair
 
 • MICCAI 2025, Area Chair
