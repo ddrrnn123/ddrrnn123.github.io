@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-`7 papers` accepted at `SPIE Medical Imaging 2026`. Congrats to everyone!
+7 papers are accepted at `SPIE Medical Imaging 2026`. Congrats to everyone!
