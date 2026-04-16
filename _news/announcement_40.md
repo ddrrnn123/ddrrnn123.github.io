@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper is accepted by `CVPR 2025`. Congratulations to Junchao!
+1 paper is accepted by `CVPR 2025`. Congratulations to Junchao!

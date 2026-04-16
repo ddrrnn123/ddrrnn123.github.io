@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper is accepted by `IEEE Transaction on Medical Imaging`.
+1 paper is accepted by `IEEE Transaction on Medical Imaging`.

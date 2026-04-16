@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Two papers are accepted by `MIDL 2025` as orals. Congratulations to Junchao and Ruining!
+2 papers are accepted by `MIDL 2025` as orals. Congratulations to Junchao and Ruining!

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper is accepted by `MIDL 2022`.
+1 paper is accepted by `MIDL 2022`.

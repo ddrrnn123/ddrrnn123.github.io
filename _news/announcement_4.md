@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper is accepted by `MICCAI 2023`.
+1 paper is accepted by `MICCAI 2023`.
