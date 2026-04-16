@@ -2,10 +2,11 @@
 layout: page
 permalink: /teaching/
 title: service
-description: 
+description:
 nav: true
 nav_order: 6
 ---
+
 `Teaching experience`
 
 • [2025 Fall] Guest Lecturer, Aalto University, AI in Health Technologies
@@ -18,11 +19,11 @@ nav_order: 6
 
 • [2024 Spring] Guest Lecturer, Vanderbilt University, CS-4267 Deep Learning
 
-• [2021 Spring] Teaching Assistant, Vanderbilt University, CS-3891 Deep Learning 
+• [2021 Spring] Teaching Assistant, Vanderbilt University, CS-3891 Deep Learning
 
-• [2020   Fall] Teaching Assistant, Vanderbilt University, DS-5660 Modeling and Machine Learning II
+• [2020 Fall] Teaching Assistant, Vanderbilt University, DS-5660 Modeling and Machine Learning II
 
-• [2020   Fall] Grader, Vanderbilt University, EECE-5353-01 Image Processing 
+• [2020 Fall] Grader, Vanderbilt University, EECE-5353-01 Image Processing
 
 `Serving experience`
 
@@ -104,7 +105,7 @@ nav_order: 6
 
 • Scientific Reports (SP)
 
-• Plos One (PO) 
+• Plos One (PO)
 
 • Engineering Application of Artificial Intelligence (EAAI)
 
