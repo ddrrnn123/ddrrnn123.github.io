@@ -153,9 +153,11 @@
     <div class="periodical">
       {{ periodical | strip }}
     </div>
-    <div class="periodical">
-      {{ entry.note | strip }}
-    </div>
+    {% if entry.note %}
+      <div class="periodical">
+        <strong style="color:#b58900">{{ entry.note | strip }}</strong>
+      </div>
+    {% endif %}
 
     <!-- Links/Buttons -->
     <div class="links">
