@@ -154,8 +154,15 @@
       {{ periodical | strip }}
     </div>
     {% if entry.note %}
+      {% assign note_text = entry.note | strip %}
+      {% assign note_lower = note_text | downcase %}
+      {% if note_lower contains 'presentation' %}
+        {% assign note_color = '#b58900' %}
+      {% else %}
+        {% assign note_color = '#dc322f' %}
+      {% endif %}
       <div class="periodical">
-        <strong style="color:#b58900">{{ entry.note | strip }}</strong>
+        <strong style="color:{{ note_color }}">{{ note_text }}</strong>
       </div>
     {% endif %}
 
