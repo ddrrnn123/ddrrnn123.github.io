@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Dr. Deng receives `IEEE Transactions on Medical Imaging (TMI) Distinguished Reviewer` award at the `Platinum Level` (Top 200 Reviewers: 8 Platinum, 12 Gold, 28 Silver, 152 Bronze). Thanks IEEE TMI!
+Dr. Deng receives IEEE Transactions on Medical Imaging (TMI) `Distinguished Reviewer award` at the `Platinum Level` (Top 200 Reviewers: 8 Platinum, 12 Gold, 28 Silver, 152 Bronze). Thanks IEEE TMI!

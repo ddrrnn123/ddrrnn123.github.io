@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Dr. Deng receives `Conference Travel Award` from MIDL 2025.
+Dr. Deng receives `Conference Travel Award` from `MIDL 2025`.
