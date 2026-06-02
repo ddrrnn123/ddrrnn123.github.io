@@ -1353,3 +1353,47 @@ body {
   font-size: 0.72rem;
   padding: 2px 8px;
 }
+
+// ---- Vertical-rhythm tightening (less empty space) ----
+.post .post-content > p,
+.post p {
+  margin-bottom: 0.7rem;
+}
+.post ul,
+.post ol {
+  margin-bottom: 0.8rem;
+}
+.post ul li,
+.post ol li {
+  margin-bottom: 0.15rem;
+  line-height: 1.55;
+}
+.post .post-content h1,
+.post .post-content h2,
+.post .post-content h3,
+.post .post-content h4 {
+  margin-top: 1.4rem;
+  margin-bottom: 0.6rem;
+}
+// Publications list: tighter gap between papers.
+.publications ol.bibliography > li {
+  margin-bottom: 1.4rem;
+}
+// Year headings on publications page.
+.publications h2.bibliography {
+  margin-top: 1.6rem;
+  margin-bottom: 0.8rem;
+  font-size: 1.6rem;
+}
+// News list on homepage.
+.news table {
+  td {
+    padding: 0.35rem 0.4rem;
+    line-height: 1.5;
+  }
+}
+// About / homepage: tighter intro paragraph spacing.
+.profile + p,
+.profile ~ p {
+  margin-bottom: 0.7rem;
+}
