@@ -67,6 +67,7 @@ nav_order: 6
 <h2 class="section-heading">Conference Reviewer</h2>
 
 <div class="service-columns">
+  <div>Conference on Computer Vision and Pattern Recognition (CVPR)</div>
   <div>Conference on Neural Information Processing Systems (NeurIPS)</div>
   <div>International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)</div>
   <div>MICCAI Workshops (MICCAIW)</div>
