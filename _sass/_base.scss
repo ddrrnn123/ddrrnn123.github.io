@@ -1512,9 +1512,10 @@ body {
 .profile-social {
   margin: 8px auto 4px;
   text-align: center;
-  font-size: 1.95rem; // larger so the row spans the photo width
+  font-size: 1.5rem;
   line-height: 1;
   display: flex;
+  flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
   width: 100%;
