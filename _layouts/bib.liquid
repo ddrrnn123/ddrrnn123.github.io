@@ -167,62 +167,96 @@
     {% endif %}
 
     <!-- Links/Buttons -->
-    <div class="links">
+    <div class="links pub-links">
       {% if entry.abstract %}
-        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+        <a class="abstract icon-link" role="button">
+          <i class="fa-solid fa-align-left"></i><span class="link-text">Abstract</span>
+        </a>
       {% endif %}
       {% if entry.arxiv %}
-        <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+        <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="icon-link" role="button">
+          <i class="ai ai-arxiv"></i><span class="link-text">arXiv</span>
+        </a>
       {% endif %}
       {% if entry.bibtex_show %}
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+        <a class="bibtex icon-link" role="button">
+          <i class="fa-solid fa-quote-right"></i><span class="link-text">BibTeX</span>
+        </a>
       {% endif %}
       {% if entry.html %}
         {% if entry.html contains '://' %}
-          <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
+          <a href="{{ entry.html }}" class="icon-link" role="button">
+            <i class="fa-regular fa-file-lines"></i><span class="link-text">Paper</span>
+          </a>
         {% else %}
-          <a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
+          <a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" class="icon-link" role="button">
+            <i class="fa-regular fa-file-lines"></i><span class="link-text">Paper</span>
+          </a>
         {% endif %}
       {% endif %}
       {% if entry.pdf %}
         {% if entry.pdf contains '://' %}
-          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          <a href="{{ entry.pdf }}" class="icon-link" role="button">
+            <i class="fa-regular fa-file-pdf"></i><span class="link-text">PDF</span>
+          </a>
         {% else %}
-          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="icon-link" role="button">
+            <i class="fa-regular fa-file-pdf"></i><span class="link-text">PDF</span>
+          </a>
         {% endif %}
       {% endif %}
       {% if entry.supp %}
         {% if entry.supp contains '://' %}
-          <a href="{{ entry.supp }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
+          <a href="{{ entry.supp }}" class="icon-link" role="button">
+            <i class="fa-solid fa-paperclip"></i><span class="link-text">Supplementary</span>
+          </a>
         {% else %}
-          <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
+          <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="icon-link" role="button">
+            <i class="fa-solid fa-paperclip"></i><span class="link-text">Supplementary</span>
+          </a>
         {% endif %}
       {% endif %}
       {% if entry.video %}
-        <a class="abstract btn btn-sm z-depth-0" role="button">Video</a>
+        <a class="abstract icon-link" role="button">
+          <i class="fa-solid fa-video"></i><span class="link-text">Video</span>
+        </a>
       {% endif %}
       {% if entry.blog %}
-        <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
+        <a href="{{ entry.blog }}" class="icon-link" role="button">
+          <i class="fa-solid fa-rss"></i><span class="link-text">Blog</span>
+        </a>
       {% endif %}
       {% if entry.code %}
-        <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
+        <a href="{{ entry.code }}" class="icon-link" role="button">
+          <i class="fa-brands fa-github"></i><span class="link-text">Code</span>
+        </a>
       {% endif %}
       {% if entry.poster %}
         {% if entry.poster contains '://' %}
-          <a href="{{ entry.poster }}" class="btn btn-sm z-depth-0" role="button">Poster</a>
+          <a href="{{ entry.poster }}" class="icon-link" role="button">
+            <i class="fa-solid fa-image"></i><span class="link-text">Poster</span>
+          </a>
         {% else %}
-          <a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Poster</a>
+          <a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" class="icon-link" role="button">
+            <i class="fa-solid fa-image"></i><span class="link-text">Poster</span>
+          </a>
         {% endif %}
       {% endif %}
       {% if entry.slides %}
         {% if entry.slides contains '://' %}
-          <a href="{{ entry.slides }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
+          <a href="{{ entry.slides }}" class="icon-link" role="button">
+            <i class="fa-solid fa-rectangle-list"></i><span class="link-text">Slides</span>
+          </a>
         {% else %}
-          <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
+          <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="icon-link" role="button">
+            <i class="fa-solid fa-rectangle-list"></i><span class="link-text">Slides</span>
+          </a>
         {% endif %}
       {% endif %}
       {% if entry.website %}
-        <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
+        <a href="{{ entry.website }}" class="icon-link" role="button">
+          <i class="fa-solid fa-globe"></i><span class="link-text">Website</span>
+        </a>
       {% endif %}
     </div>
     {% if site.enable_publication_badges %}

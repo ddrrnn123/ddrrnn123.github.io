@@ -1354,6 +1354,46 @@ body {
   padding: 2px 8px;
 }
 
+// Han-Liu-style publication action links: icon + label, dashed underline.
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  margin-top: 6px;
+}
+.pub-links .icon-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.82rem;
+  color: var(--global-text-color);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--slate-text-light);
+  padding-bottom: 1px;
+  background: none;
+  border-radius: 0;
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease;
+  cursor: pointer;
+}
+.pub-links .icon-link:hover {
+  color: var(--slate-primary);
+  border-bottom-color: var(--slate-primary);
+  text-decoration: none;
+}
+.pub-links .icon-link i {
+  color: var(--slate-text-gray);
+  font-size: 0.9em;
+  transition: color 0.2s ease;
+}
+.pub-links .icon-link:hover i {
+  color: var(--slate-primary);
+}
+.pub-links .icon-link .link-text {
+  border-bottom: none;
+}
+
 // ---- Vertical-rhythm tightening (less empty space) ----
 .post .post-content > p,
 .post p {
