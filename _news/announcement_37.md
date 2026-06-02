@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Dr. Deng is serving as the Area Chair at `MICCAI 2025`.
+Dr. Deng is serving as the `Area Chair` at `MICCAI 2025`.

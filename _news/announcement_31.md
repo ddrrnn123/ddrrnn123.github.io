@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Mr. Deng is serving as the program committee at `MICCAI2024 MOVI`.
+Mr. Deng is serving as the `Program Committee` at `MICCAI2024 MOVI`.

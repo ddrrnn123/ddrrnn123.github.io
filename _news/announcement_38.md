@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Dr. Deng is serving as the Scientific Committee at `CVPR 2025 Medical Computer Vision Workshop`.
+Dr. Deng is serving as the `Scientific Committee` at `CVPR 2025 Medical Computer Vision Workshop`.

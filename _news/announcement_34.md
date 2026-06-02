@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Mr. Deng serves as Technical Program Committee Reviewer in `ISBI 2025`.
+Mr. Deng serves as `Technical Program Committee Reviewer` in `ISBI 2025`.

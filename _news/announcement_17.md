@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Mr. Deng is serving as the program committee at `ICCV CVAMD 2023`.
+Mr. Deng is serving as the `Program Committee` at `ICCV CVAMD 2023`.

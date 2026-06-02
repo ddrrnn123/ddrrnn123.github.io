@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Dr. Deng is serving as the Program Chair at `MIDL 2026`.
+Dr. Deng is serving as the `Program Chair` at `MIDL 2026`.
