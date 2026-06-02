@@ -59,18 +59,18 @@ profile_groups:
     </tr>
   </thead>
   <tbody>
-    <tr><td>Juming Xiong</td><td>MS</td><td>BME</td><td></td><td></td><td>Circle representation for medical instance segmentation</td></tr>
-    <tr><td>Xueyuan Li</td><td>MS</td><td>DS</td><td></td><td></td><td>Foundation model in cell annotation</td></tr>
-    <tr><td>Lining Yu</td><td>MS</td><td>CS</td><td></td><td></td><td>Multi-class segmentation for glomerular lesion</td></tr>
-    <tr><td>Zheyu Zhu</td><td>BS</td><td>CS</td><td></td><td></td><td>Feature embedding for whole slide imaging</td></tr>
-    <tr><td>Peize Li</td><td>BS</td><td>CS</td><td></td><td></td><td>Multi-stain whole slide imaging registration</td></tr>
-    <tr><td>Haoju Leng</td><td>BS</td><td>CS</td><td></td><td></td><td>Accelerated segmentation pipeline for kidney WSI</td></tr>
+    <tr><td>Juming Xiong</td><td>MS</td><td>BME</td><td>2025</td><td>PhD Student at Vanderbilt University</td><td>Circle representation for medical instance segmentation</td></tr>
+    <tr><td>Xueyuan Li</td><td>MS</td><td>DS</td><td>2024</td><td>Staff Research Associate at UCSF</td><td>Foundation model in cell annotation; SPIE Best Paper Award Finalist</td></tr>
+    <tr><td>Lining Yu</td><td>MS</td><td>CS</td><td>2025</td><td></td><td>Multi-class segmentation for glomerular lesion</td></tr>
+    <tr><td>Zheyu Zhu</td><td>BS</td><td>CS</td><td>2022</td><td>Software Engineer at Amazon</td><td>Feature embedding for whole slide imaging</td></tr>
+    <tr><td>Peize Li</td><td>BS</td><td>CS</td><td>2023</td><td>Software Engineer at Roblox</td><td>Multi-stain whole slide imaging registration</td></tr>
+    <tr><td>Haoju Leng</td><td>BS</td><td>CS</td><td>2023</td><td>MS Student at Carnegie Mellon University</td><td>Accelerated segmentation pipeline for kidney WSI</td></tr>
     <tr><td>Yanwei Li</td><td>BS</td><td>CS</td><td></td><td></td><td>Molecular-empowered cell annotation</td></tr>
     <tr><td>Saydolimkhon Agzamkhodjaev</td><td>BS</td><td>CS</td><td></td><td></td><td>Undergraduate research credit</td></tr>
-    <tr><td>Yilin Liu</td><td>BS</td><td>CS</td><td></td><td></td><td>Cell detection on pathological images</td></tr>
-    <tr><td>Ethan Nguyen</td><td>BS</td><td>CS</td><td></td><td></td><td>Nuclei detection on pathological images</td></tr>
+    <tr><td>Yilin Liu</td><td>BS</td><td>CS</td><td>2023</td><td>MS Student at Stanford University</td><td>Cell detection on pathological images</td></tr>
+    <tr><td>Ethan Nguyen</td><td>BS</td><td>CS</td><td>2023</td><td>Software Engineer at Capital One</td><td>Nuclei detection on pathological images; Goldwater Scholar</td></tr>
     <tr><td>Muhao Liu</td><td>BS</td><td>CS</td><td></td><td></td><td>Kidney layer segmentation</td></tr>
-    <tr><td>Franklin Hu</td><td>BS</td><td>CS</td><td></td><td></td><td>Multi-site vessel segmentation for renal pathology</td></tr>
+    <tr><td>Franklin Hu</td><td>BS</td><td>CS</td><td>2025</td><td>Software Engineer at Capital One</td><td>Multi-site vessel segmentation for renal pathology</td></tr>
   </tbody>
 </table>
 </div>
