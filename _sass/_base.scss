@@ -1492,26 +1492,33 @@ body {
 }
 
 // About-page profile: smaller address, social icons under photo.
-.profile .more-info {
-  margin-top: 10px;
-  margin-bottom: 8px;
-  font-family: inherit;
-  font-size: 0.78rem;
+.profile .more-info,
+.profile .more-info p {
+  font-family: inherit !important;
+  font-size: 0.7rem !important;
   color: var(--slate-text-gray);
   line-height: 1.45;
   text-align: center;
+}
+.profile .more-info {
+  margin-top: 10px;
+  margin-bottom: 6px;
   p {
     display: block !important;
     margin: 0;
   }
 }
 .profile-social {
-  margin: 10px auto 4px;
+  margin: 8px auto 4px;
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 1.95rem; // larger so the row spans the photo width
   line-height: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
   a {
-    margin: 0 4px;
+    flex: 0 0 auto;
     i::before {
       color: var(--global-text-color);
       transition: color 0.2s ease;
@@ -1523,7 +1530,7 @@ body {
 }
 .profile-contact-note {
   text-align: center;
-  font-size: 0.72rem;
+  font-size: 0.7rem;
   color: var(--slate-text-gray);
   margin-bottom: 6px;
   line-height: 1.4;
