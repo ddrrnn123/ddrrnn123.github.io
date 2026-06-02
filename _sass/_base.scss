@@ -1436,11 +1436,27 @@ body {
     border: none;
     vertical-align: top;
   }
-  th {
+  th.news-date {
     color: var(--slate-text-gray);
     font-weight: 500;
     white-space: nowrap;
-    width: 18%;
+    width: 110px;
+    font-variant-numeric: tabular-nums;
+    .news-mon {
+      display: inline-block;
+      width: 2.2em;
+    }
+    .news-day {
+      display: inline-block;
+      width: 1.8em;
+      text-align: right;
+      margin-right: 0.4em;
+    }
+    .news-year {
+      display: inline-block;
+      width: 2.6em;
+      text-align: left;
+    }
   }
 }
 // About / homepage: tighter intro paragraph spacing.
