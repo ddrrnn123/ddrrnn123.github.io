@@ -3,12 +3,20 @@
  ******************************************************************************/
 
 :root {
+  // han-liu palette
+  --slate-primary: #4a5568;
+  --slate-primary-dark: #2d3748;
+  --slate-primary-light: rgba(74, 85, 104, 0.1);
+  --slate-text-gray: #718096;
+  --slate-text-light: #a0aec0;
+  --slate-border: #e2e8f0;
+
   --global-bg-color: #{$white-color};
-  --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
+  --global-code-bg-color: rgba(74, 85, 104, 0.06);
+  --global-text-color: #2d3748;
+  --global-text-color-light: #718096;
+  --global-theme-color: var(--slate-primary);
+  --global-hover-color: var(--slate-primary-dark);
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};

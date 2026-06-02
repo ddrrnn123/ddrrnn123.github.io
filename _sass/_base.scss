@@ -1118,3 +1118,47 @@ swiper-container {
   --swiper-pagination-color: var(--global-theme-color);
   --swiper-pagination-bullet-inactive-color: var(--global-text-color);
 }
+
+/*******************************************************************************
+ * han-liu inspired utilities and section styling
+ ******************************************************************************/
+
+// Section heading style — opt-in via .section-heading class to avoid
+// clobbering h2's used elsewhere (e.g. publication year groups).
+.section-heading,
+.post .post-content h2.section-heading {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: var(--slate-text-gray);
+  margin-top: 2.2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  border-bottom: 1px solid var(--slate-text-gray);
+}
+
+// han-liu's plain underline for institution / advisor / author names.
+.underline {
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+// Teal highlight for research-philosophy phrases (han-liu signature).
+.highlight-phrase {
+  color: #008b8b;
+  font-weight: 700;
+}
+
+// Dashed underline for awards / honors.
+.award-underline {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-underline-offset: 2px;
+}
+
+// Themed text selection.
+::selection {
+  background-color: var(--slate-primary-light);
+  color: var(--slate-primary-dark);
+}
