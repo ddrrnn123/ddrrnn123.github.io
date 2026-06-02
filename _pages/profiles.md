@@ -2,56 +2,72 @@
 layout: profiles
 permalink: /people/
 title: people
-description: members of the lab or group
+description: members of the group
 nav: true
 nav_order: 7
 
-profiles:
-  - name: Ruining Deng
-    image: main_pic.jpg
-    image_circular: true
-    role: AI Instructor
-    affiliation: Weill Cornell Medicine
-    years: 2024 &ndash; present
-  - name: Daniel Reisenbüchler
-    image: DanielReisenbuechler.png
-    image_circular: true
-    role: Ph.D. Student
-    affiliation: University of Regensburg
-    years: 2024 &ndash; present
-  - name: Daniel (Zhenhao) Guo
-    image: DanielGuo.jpg
-    image_circular: true
-    role: Undergraduate Student
-    affiliation: New York University
-    years: 2025 &ndash; present
-  - name: Leiyue Zhao
-    image: LeiyueZhao.jpg
-    image_circular: true
-    role: Undergraduate Student
-    affiliation: Southern University of Science and Technology
-    years: 2025 &ndash; present
-  - name: Tianyu Shi
-    image: TianyuShi.jpeg
-    image_circular: true
-    role: Undergraduate Student
-    affiliation: Sichuan University
-    years: 2025 &ndash; present
-  - name: Hongjin Fang
-    image: HongjinFang.png
-    image_circular: true
-    role: Undergraduate Student
-    affiliation: Cornell University
-    years: 2025 &ndash; present
-  - name: Your Name?
-    image: prof_pic.jpg
-    image_circular: true
-    role: We are hiring!
-    affiliation: rud4004@med.cornell.edu
-    placeholder: true
+profile_groups:
+  - title: Principal Investigator
+    people:
+      - name: Ruining Deng
+        image: main_pic.jpg
+        role: AI Instructor, Weill Cornell Medicine
+
+  - title: PhD Students
+    people:
+      - name: Daniel Reisenbüchler
+        image: DanielReisenbuechler.png
+        role: PhD Student, University of Regensburg
+
+  - title: Undergraduate Students
+    people:
+      - name: Daniel (Zhenhao) Guo
+        image: DanielGuo.jpg
+        role: Undergraduate, New York University
+      - name: Leiyue Zhao
+        image: LeiyueZhao.jpg
+        role: Undergraduate, Southern University of Science and Technology
+      - name: Tianyu Shi
+        image: TianyuShi.jpeg
+        role: Undergraduate, Sichuan University
+      - name: Hongjin Fang
+        image: HongjinFang.png
+        role: Undergraduate, Cornell University
+      - name: Your Name?
+        image: prof_pic.jpg
+        role: We are hiring — rud4004@med.cornell.edu
+        placeholder: true
 ---
 
-<h2 class="section-heading" style="margin-top: 2.5rem;">Alumni</h2>
+<h2 class="section-heading" style="margin-top: 2.5rem;">Past Mentees</h2>
+
+<div class="alumni-table-wrapper">
+<table class="alumni-table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Program</th>
+      <th>Research Topic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Juming Xiong</td><td>MS BME</td><td>Circle representation for medical instance segmentation</td></tr>
+    <tr><td>Xueyuan Li</td><td>MS DS</td><td>Foundation model in cell annotation</td></tr>
+    <tr><td>Lining Yu</td><td>MS CS</td><td>Multi-class segmentation for glomerular lesion</td></tr>
+    <tr><td>Zheyu Zhu</td><td>BS CS</td><td>Feature embedding for whole slide imaging</td></tr>
+    <tr><td>Peize Li</td><td>BS CS</td><td>Multi-stain whole slide imaging registration</td></tr>
+    <tr><td>Haoju Leng</td><td>BS CS</td><td>Accelerated segmentation pipeline for kidney WSI</td></tr>
+    <tr><td>Yanwei Li</td><td>BS CS</td><td>Molecular-empowered cell annotation</td></tr>
+    <tr><td>Saydolimkhon Agzamkhodjaev</td><td>BS CS</td><td>Undergraduate research credit</td></tr>
+    <tr><td>Yilin Liu</td><td>BS CS</td><td>Cell detection on pathological images</td></tr>
+    <tr><td>Ethan Nguyen</td><td>BS CS</td><td>Nuclei detection on pathological images</td></tr>
+    <tr><td>Muhao Liu</td><td>BS CS</td><td>Kidney layer segmentation</td></tr>
+    <tr><td>Franklin Hu</td><td>BS CS</td><td>Multi-site vessel segmentation for renal pathology</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2 class="section-heading" style="margin-top: 2.5rem;">PhD Alumni (HRLB)</h2>
 
 <div class="alumni-table-wrapper">
 <table class="alumni-table">

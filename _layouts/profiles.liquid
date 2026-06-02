@@ -3,33 +3,25 @@ layout: page
 ---
 <div class="post">
   <article>
-    {% if page.profiles %}
-      <div class="people-grid">
-        {% for profile in page.profiles %}
-          <div class="person-card{% if profile.placeholder %} person-card--placeholder{% endif %}">
-            {% if profile.image %}
-              {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
-              {% if profile.image_circular %}
-                {% assign profile_image_class = 'person-photo person-photo--circular' %}
-              {% else %}
-                {% assign profile_image_class = 'person-photo' %}
+    {% if page.profile_groups %}
+      {% for group in page.profile_groups %}
+        <h2 class="section-heading people-section">{{ group.title }}</h2>
+        <div class="people-grid people-grid--centered">
+          {% for profile in group.people %}
+            <div class="person-card{% if profile.placeholder %} person-card--placeholder{% endif %}">
+              {% if profile.image %}
+                {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+                {% capture sizes %}(min-width: 992px) 180px, (min-width: 576px) 30vw, 60vw{% endcapture %}
+                {% include figure.liquid loading="eager" path=profile_image_path class="person-photo person-photo--circular" sizes=sizes alt=profile.name zoomable=false %}
               {% endif %}
-              {% capture sizes %}(min-width: 992px) 180px, (min-width: 576px) 22vw, 40vw{% endcapture %}
-              {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.name zoomable=false %}
-            {% endif %}
-            <div class="person-name">{{ profile.name }}</div>
-            {% if profile.role %}
-              <div class="person-role">{{ profile.role }}</div>
-            {% endif %}
-            {% if profile.affiliation %}
-              <div class="person-affiliation">{{ profile.affiliation }}</div>
-            {% endif %}
-            {% if profile.years %}
-              <div class="person-years">{{ profile.years }}</div>
-            {% endif %}
-          </div>
-        {% endfor %}
-      </div>
+              <div class="person-name">{{ profile.name }}</div>
+              {% if profile.role %}
+                <div class="person-role">{{ profile.role }}</div>
+              {% endif %}
+            </div>
+          {% endfor %}
+        </div>
+      {% endfor %}
     {% endif %}
 
     <div class="profiles-extra">

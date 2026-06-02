@@ -75,20 +75,3 @@ nav_order: 6
   <div>IEEE International Conference on Computer Vision Workshop (ICCVW)</div>
   <div>NeurIPS Workshops</div>
 </div>
-
-<h2 class="section-heading">Mentoring</h2>
-
-<ul class="service-list">
-  <li><span class="service-date">MS BME</span><span class="service-body"><span class="underline">Juming Xiong</span> &mdash; Circle representation for medical instance segmentation</span></li>
-  <li><span class="service-date">MS DS</span><span class="service-body"><span class="underline">Xueyuan Li</span> &mdash; Foundation model in cell annotation</span></li>
-  <li><span class="service-date">MS CS</span><span class="service-body"><span class="underline">Lining Yu</span> &mdash; Multi-class segmentation for glomerular lesion</span></li>
-  <li><span class="service-date">BS CS</span><span class="service-body"><span class="underline">Zheyu Zhu</span> &mdash; Feature embedding for whole slide imaging</span></li>
-  <li><span class="service-date">BS CS</span><span class="service-body"><span class="underline">Peize Li</span> &mdash; Multi-stain whole slide imaging registration</span></li>
-  <li><span class="service-date">BS CS</span><span class="service-body"><span class="underline">Haoju Leng</span> &mdash; Accelerated segmentation pipeline for kidney whole slide images</span></li>
-  <li><span class="service-date">BS CS</span><span class="service-body"><span class="underline">Yanwei Li</span> &mdash; Molecular-empowered cell annotation</span></li>
-  <li><span class="service-date">BS CS</span><span class="service-body"><span class="underline">Saydolimkhon Agzamkhodjaev</span> &mdash; Undergraduate research credit</span></li>
-  <li><span class="service-date">BS CS</span><span class="service-body"><span class="underline">Yilin Liu</span> &mdash; Cell detection on pathological images</span></li>
-  <li><span class="service-date">BS CS</span><span class="service-body"><span class="underline">Ethan Nguyen</span> &mdash; Nuclei detection on pathological images</span></li>
-  <li><span class="service-date">BS CS</span><span class="service-body"><span class="underline">Muhao Liu</span> &mdash; Kidney layer segmentation</span></li>
-  <li><span class="service-date">BS CS</span><span class="service-body"><span class="underline">Franklin Hu</span> &mdash; Multi-site vessel segmentation for renal pathology</span></li>
-</ul>
