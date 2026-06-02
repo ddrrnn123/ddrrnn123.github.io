@@ -3,16 +3,17 @@
  ******************************************************************************/
 
 :root {
-  // han-liu palette
-  --slate-primary: #4a5568;
-  --slate-primary-dark: #2d3748;
-  --slate-primary-light: rgba(74, 85, 104, 0.1);
+  // Eosin-pink (H&E staining) primary + slate text. Aliased under the
+  // legacy --slate-* names so existing rules keep working.
+  --slate-primary: #a8627a;
+  --slate-primary-dark: #8a4a60;
+  --slate-primary-light: rgba(168, 98, 122, 0.1);
   --slate-text-gray: #718096;
   --slate-text-light: #a0aec0;
   --slate-border: #e2e8f0;
 
   --global-bg-color: #{$white-color};
-  --global-code-bg-color: rgba(74, 85, 104, 0.06);
+  --global-code-bg-color: rgba(168, 98, 122, 0.06);
   --global-text-color: #2d3748;
   --global-text-color-light: #718096;
   --global-theme-color: var(--slate-primary);
