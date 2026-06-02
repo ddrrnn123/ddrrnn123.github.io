@@ -157,12 +157,12 @@
       {% assign note_text = entry.note | strip %}
       {% assign note_lower = note_text | downcase %}
       {% if note_lower contains 'presentation' %}
-        {% assign note_color = '#b58900' %}
+        {% assign note_class = 'pub-note pub-note-gold' %}
       {% else %}
-        {% assign note_color = '#dc322f' %}
+        {% assign note_class = 'pub-note pub-note-red' %}
       {% endif %}
       <div class="periodical">
-        <strong style="color:{{ note_color }}">{{ note_text }}</strong>
+        <span class="{{ note_class }}">{{ note_text }}</span>
       </div>
     {% endif %}
 

@@ -1162,3 +1162,27 @@ swiper-container {
   background-color: var(--slate-primary-light);
   color: var(--slate-primary-dark);
 }
+
+// Publication award/presentation badge — subtle pill style.
+.pub-note {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 3px;
+  margin-top: 4px;
+  vertical-align: middle;
+  line-height: 1.4;
+}
+.pub-note-gold {
+  color: #b58900;
+  background: rgba(181, 137, 0, 0.1);
+  border: 1px solid rgba(181, 137, 0, 0.25);
+}
+.pub-note-red {
+  color: #dc322f;
+  background: rgba(220, 50, 47, 0.08);
+  border: 1px solid rgba(220, 50, 47, 0.22);
+}
