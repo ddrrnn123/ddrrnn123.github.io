@@ -1231,3 +1231,99 @@ swiper-container {
     min-width: 90px;
   }
 }
+
+// ---- People grid (zhihuang lab inspired) ----
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 28px 22px;
+  margin: 1.2rem 0 2.2rem 0;
+}
+.person-card {
+  text-align: center;
+  padding: 8px 4px;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+.person-card:hover {
+  transform: translateY(-2px);
+}
+.person-photo {
+  width: 100%;
+  max-width: 160px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 12px;
+  background: var(--slate-primary-light);
+}
+.person-photo--circular {
+  border-radius: 50%;
+}
+.person-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--global-text-color);
+  line-height: 1.3;
+  margin-bottom: 3px;
+}
+.person-role {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--slate-primary);
+  line-height: 1.35;
+  margin-bottom: 2px;
+}
+.person-affiliation {
+  font-size: 0.8rem;
+  color: var(--slate-text-gray);
+  line-height: 1.35;
+  margin-bottom: 2px;
+}
+.person-years {
+  font-size: 0.75rem;
+  color: var(--slate-text-light);
+  letter-spacing: 0.3px;
+  font-variant-numeric: tabular-nums;
+}
+.person-card--placeholder {
+  opacity: 0.7;
+}
+.person-card--placeholder .person-photo {
+  filter: grayscale(1) opacity(0.6);
+}
+.person-card--placeholder:hover {
+  opacity: 1;
+}
+.person-card--placeholder:hover .person-photo {
+  filter: none;
+}
+
+// Alumni table — match the new minimal aesthetic.
+.alumni-table-wrapper {
+  overflow-x: auto;
+  margin: 0.6rem 0 2rem 0;
+}
+.alumni-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+}
+.alumni-table th,
+.alumni-table td {
+  text-align: left;
+  padding: 9px 12px;
+  border-bottom: 1px solid var(--slate-border);
+}
+.alumni-table thead th {
+  font-weight: 500;
+  color: var(--slate-text-gray);
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid var(--slate-text-gray);
+}
+.alumni-table tbody tr:hover {
+  background: var(--slate-primary-light);
+}
