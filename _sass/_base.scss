@@ -1385,11 +1385,22 @@ body {
   margin-bottom: 0.8rem;
   font-size: 1.6rem;
 }
-// News list on homepage.
+// News list on homepage — dense rows, no extra padding.
 .news table {
-  td {
-    padding: 0.35rem 0.4rem;
-    line-height: 1.5;
+  margin-bottom: 0.4rem;
+  td,
+  th {
+    padding: 0.18rem 0.4rem !important;
+    line-height: 1.4;
+    font-size: 0.86rem;
+    border: none;
+    vertical-align: top;
+  }
+  th {
+    color: var(--slate-text-gray);
+    font-weight: 500;
+    white-space: nowrap;
+    width: 18%;
   }
 }
 // About / homepage: tighter intro paragraph spacing.
