@@ -46,23 +46,26 @@ profile_groups:
   <thead>
     <tr>
       <th>Name</th>
+      <th>Degree</th>
       <th>Program</th>
-      <th>Research Topic</th>
+      <th>Leave Lab</th>
+      <th>First Job Position</th>
+      <th>Notes</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td>Juming Xiong</td><td>MS BME</td><td>Circle representation for medical instance segmentation</td></tr>
-    <tr><td>Xueyuan Li</td><td>MS DS</td><td>Foundation model in cell annotation</td></tr>
-    <tr><td>Lining Yu</td><td>MS CS</td><td>Multi-class segmentation for glomerular lesion</td></tr>
-    <tr><td>Zheyu Zhu</td><td>BS CS</td><td>Feature embedding for whole slide imaging</td></tr>
-    <tr><td>Peize Li</td><td>BS CS</td><td>Multi-stain whole slide imaging registration</td></tr>
-    <tr><td>Haoju Leng</td><td>BS CS</td><td>Accelerated segmentation pipeline for kidney WSI</td></tr>
-    <tr><td>Yanwei Li</td><td>BS CS</td><td>Molecular-empowered cell annotation</td></tr>
-    <tr><td>Saydolimkhon Agzamkhodjaev</td><td>BS CS</td><td>Undergraduate research credit</td></tr>
-    <tr><td>Yilin Liu</td><td>BS CS</td><td>Cell detection on pathological images</td></tr>
-    <tr><td>Ethan Nguyen</td><td>BS CS</td><td>Nuclei detection on pathological images</td></tr>
-    <tr><td>Muhao Liu</td><td>BS CS</td><td>Kidney layer segmentation</td></tr>
-    <tr><td>Franklin Hu</td><td>BS CS</td><td>Multi-site vessel segmentation for renal pathology</td></tr>
+    <tr><td>Juming Xiong</td><td>MS</td><td>BME</td><td></td><td></td><td>Circle representation for medical instance segmentation</td></tr>
+    <tr><td>Xueyuan Li</td><td>MS</td><td>DS</td><td></td><td></td><td>Foundation model in cell annotation</td></tr>
+    <tr><td>Lining Yu</td><td>MS</td><td>CS</td><td></td><td></td><td>Multi-class segmentation for glomerular lesion</td></tr>
+    <tr><td>Zheyu Zhu</td><td>BS</td><td>CS</td><td></td><td></td><td>Feature embedding for whole slide imaging</td></tr>
+    <tr><td>Peize Li</td><td>BS</td><td>CS</td><td></td><td></td><td>Multi-stain whole slide imaging registration</td></tr>
+    <tr><td>Haoju Leng</td><td>BS</td><td>CS</td><td></td><td></td><td>Accelerated segmentation pipeline for kidney WSI</td></tr>
+    <tr><td>Yanwei Li</td><td>BS</td><td>CS</td><td></td><td></td><td>Molecular-empowered cell annotation</td></tr>
+    <tr><td>Saydolimkhon Agzamkhodjaev</td><td>BS</td><td>CS</td><td></td><td></td><td>Undergraduate research credit</td></tr>
+    <tr><td>Yilin Liu</td><td>BS</td><td>CS</td><td></td><td></td><td>Cell detection on pathological images</td></tr>
+    <tr><td>Ethan Nguyen</td><td>BS</td><td>CS</td><td></td><td></td><td>Nuclei detection on pathological images</td></tr>
+    <tr><td>Muhao Liu</td><td>BS</td><td>CS</td><td></td><td></td><td>Kidney layer segmentation</td></tr>
+    <tr><td>Franklin Hu</td><td>BS</td><td>CS</td><td></td><td></td><td>Multi-site vessel segmentation for renal pathology</td></tr>
   </tbody>
 </table>
 </div>
