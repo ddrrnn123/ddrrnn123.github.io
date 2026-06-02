@@ -69,7 +69,7 @@ profile_groups:
     <tr><td>Zheyu Zhu</td><td>BS</td><td>CS</td><td>2022</td><td>Software Engineer at Amazon</td><td>Feature embedding for whole slide imaging</td></tr>
     <tr><td>Peize Li</td><td>BS</td><td>CS</td><td>2023</td><td>Software Engineer at Roblox</td><td>Multi-stain whole slide imaging registration</td></tr>
     <tr><td>Haoju Leng</td><td>BS</td><td>CS</td><td>2023</td><td>MS Student at Carnegie Mellon University</td><td>Accelerated segmentation pipeline for kidney WSI</td></tr>
-    <tr><td>Yanwei Li</td><td>BS</td><td>CS</td><td></td><td></td><td>Molecular-empowered cell annotation</td></tr>
+    <tr><td>Yanwei Li</td><td>BS</td><td>CS</td><td>2024</td><td>PhD Student at Columbia University</td><td>Molecular-empowered cell annotation</td></tr>
     <tr><td>Saydolimkhon Agzamkhodjaev</td><td>BS</td><td>CS</td><td></td><td></td><td>Undergraduate research credit</td></tr>
     <tr><td>Yilin Liu</td><td>BS</td><td>CS</td><td>2023</td><td>MS Student at Stanford University</td><td>Cell detection on pathological images</td></tr>
     <tr><td>Ethan Nguyen</td><td>BS</td><td>CS</td><td>2023</td><td>Software Engineer at Capital One</td><td>Nuclei detection on pathological images; Goldwater Scholar</td></tr>
