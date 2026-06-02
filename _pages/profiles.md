@@ -19,10 +19,6 @@ profile_groups:
         image: DanielReisenbuechler.png
         role: PhD Student, University of Regensburg
         position: Visiting Researcher
-      - name: Vivian Li
-        image: prof_pic.jpg
-        role: PhD Student, Columbia University
-        position: Visiting Researcher
 
   - title: Undergraduate Students
     people:
