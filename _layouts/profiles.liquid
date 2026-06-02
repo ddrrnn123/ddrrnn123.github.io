@@ -18,6 +18,9 @@ layout: page
               {% if profile.role %}
                 <div class="person-role">{{ profile.role }}</div>
               {% endif %}
+              {% if profile.position %}
+                <div class="person-position">{{ profile.position }}</div>
+              {% endif %}
             </div>
           {% endfor %}
         </div>

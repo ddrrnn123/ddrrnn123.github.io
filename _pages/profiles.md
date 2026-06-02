@@ -18,21 +18,26 @@ profile_groups:
       - name: Daniel Reisenbüchler
         image: DanielReisenbuechler.png
         role: PhD Student, University of Regensburg
+        position: Visiting Researcher
 
   - title: Undergraduate Students
     people:
       - name: Daniel (Zhenhao) Guo
         image: DanielGuo.jpg
         role: Undergraduate, New York University
+        position: Research Assistant
       - name: Leiyue Zhao
         image: LeiyueZhao.jpg
         role: Undergraduate, Southern University of Science and Technology
+        position: Research Assistant
       - name: Tianyu Shi
         image: TianyuShi.jpeg
         role: Undergraduate, Sichuan University
+        position: Research Assistant
       - name: Hongjin Fang
         image: HongjinFang.png
         role: Undergraduate, Cornell University
+        position: Research Assistant
       - name: Your Name?
         image: prof_pic.jpg
         role: We are hiring — rud4004@med.cornell.edu

@@ -1279,6 +1279,14 @@ swiper-container {
   color: var(--slate-text-gray);
   line-height: 1.4;
 }
+.person-position {
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--slate-primary);
+  font-style: italic;
+  line-height: 1.4;
+  margin-top: 2px;
+}
 .person-card--placeholder {
   opacity: 0.65;
 }
