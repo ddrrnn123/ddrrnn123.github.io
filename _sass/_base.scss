@@ -1618,39 +1618,4 @@ body {
   text-decoration: none;
 }
 
-// ---- News vertical timeline ----
-.news table {
-  position: relative;
-}
-.news table tr {
-  position: relative;
-}
-.news .news-date {
-  position: relative;
-  padding-left: 1.4rem !important;
-}
-.news .news-date::before {
-  content: "";
-  position: absolute;
-  left: 0.35rem;
-  top: 0.55em;
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: var(--slate-primary);
-  box-shadow: 0 0 0 2px rgba(168, 98, 122, 0.18);
-  z-index: 1;
-}
-.news .news-date::after {
-  content: "";
-  position: absolute;
-  left: calc(0.35rem + 3px);
-  top: 0.55em;
-  bottom: -0.6em;
-  width: 1px;
-  background: var(--slate-border);
-  z-index: 0;
-}
-.news table tr:last-child .news-date::after {
-  display: none;
-}
+// (News timeline dot/line removed — clean aligned dates only.)
