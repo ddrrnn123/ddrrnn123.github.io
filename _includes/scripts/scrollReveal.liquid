@@ -13,20 +13,8 @@
 
     const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-    // Elements we want to gently fade-up on scroll.
-    const selectors = [
-      '.post > .post-header',
-      '.post article > p',
-      '.section-heading',
-      '.people-grid--centered',
-      '.alumni-table-wrapper',
-      '.service-list',
-      '.service-columns',
-      '.callout',
-      '.publications h2.bibliography',
-      '.publications ol.bibliography > li',
-      '.news',
-    ];
+    // Keep animation minimal (perf-first): only a subtle fade on headers.
+    const selectors = ['.post > .post-header', '.section-heading'];
 
     const targets = document.querySelectorAll(selectors.join(','));
 
