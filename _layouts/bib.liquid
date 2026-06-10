@@ -169,9 +169,7 @@
     <!-- Links/Buttons -->
     <div class="links pub-links">
       {% if entry.abstract %}
-        <a class="abstract icon-link" role="button">
-          <i class="fa-solid fa-align-left"></i><span class="link-text">Abstract</span>
-        </a>
+        <a class="abstract icon-link" role="button"> <i class="fa-solid fa-align-left"></i><span class="link-text">Abstract</span> </a>
       {% endif %}
       {% if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="icon-link" role="button">
@@ -179,9 +177,7 @@
         </a>
       {% endif %}
       {% if entry.bibtex_show %}
-        <a class="bibtex icon-link" role="button">
-          <i class="fa-solid fa-quote-right"></i><span class="link-text">BibTeX</span>
-        </a>
+        <a class="bibtex icon-link" role="button"> <i class="fa-solid fa-quote-right"></i><span class="link-text">BibTeX</span> </a>
       {% endif %}
       {% if entry.html %}
         {% if entry.html contains '://' %}
@@ -196,9 +192,7 @@
       {% endif %}
       {% if entry.pdf %}
         {% if entry.pdf contains '://' %}
-          <a href="{{ entry.pdf }}" class="icon-link" role="button">
-            <i class="fa-regular fa-file-pdf"></i><span class="link-text">PDF</span>
-          </a>
+          <a href="{{ entry.pdf }}" class="icon-link" role="button"> <i class="fa-regular fa-file-pdf"></i><span class="link-text">PDF</span> </a>
         {% else %}
           <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="icon-link" role="button">
             <i class="fa-regular fa-file-pdf"></i><span class="link-text">PDF</span>
@@ -217,25 +211,17 @@
         {% endif %}
       {% endif %}
       {% if entry.video %}
-        <a class="abstract icon-link" role="button">
-          <i class="fa-solid fa-video"></i><span class="link-text">Video</span>
-        </a>
+        <a class="abstract icon-link" role="button"> <i class="fa-solid fa-video"></i><span class="link-text">Video</span> </a>
       {% endif %}
       {% if entry.blog %}
-        <a href="{{ entry.blog }}" class="icon-link" role="button">
-          <i class="fa-solid fa-rss"></i><span class="link-text">Blog</span>
-        </a>
+        <a href="{{ entry.blog }}" class="icon-link" role="button"> <i class="fa-solid fa-rss"></i><span class="link-text">Blog</span> </a>
       {% endif %}
       {% if entry.code %}
-        <a href="{{ entry.code }}" class="icon-link" role="button">
-          <i class="fa-brands fa-github"></i><span class="link-text">Code</span>
-        </a>
+        <a href="{{ entry.code }}" class="icon-link" role="button"> <i class="fa-brands fa-github"></i><span class="link-text">Code</span> </a>
       {% endif %}
       {% if entry.poster %}
         {% if entry.poster contains '://' %}
-          <a href="{{ entry.poster }}" class="icon-link" role="button">
-            <i class="fa-solid fa-image"></i><span class="link-text">Poster</span>
-          </a>
+          <a href="{{ entry.poster }}" class="icon-link" role="button"> <i class="fa-solid fa-image"></i><span class="link-text">Poster</span> </a>
         {% else %}
           <a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" class="icon-link" role="button">
             <i class="fa-solid fa-image"></i><span class="link-text">Poster</span>
@@ -254,9 +240,7 @@
         {% endif %}
       {% endif %}
       {% if entry.website %}
-        <a href="{{ entry.website }}" class="icon-link" role="button">
-          <i class="fa-solid fa-globe"></i><span class="link-text">Website</span>
-        </a>
+        <a href="{{ entry.website }}" class="icon-link" role="button"> <i class="fa-solid fa-globe"></i><span class="link-text">Website</span> </a>
       {% endif %}
     </div>
     {% if site.enable_publication_badges %}

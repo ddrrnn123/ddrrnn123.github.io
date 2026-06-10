@@ -17,7 +17,8 @@
         {% for item in news limit: news_limit %}
           <tr>
             <th scope="row" class="news-date">
-              <span class="news-mon">{{ item.date | date: '%b' }}</span><span class="news-day">{{ item.date | date: '%d' }}</span><span class="news-year">{{ item.date | date: '%Y' }}</span>
+              <span class="news-mon">{{ item.date | date: '%b' }}</span><span class="news-day">{{ item.date | date: '%d' }}</span
+              ><span class="news-year">{{ item.date | date: '%Y' }}</span>
             </th>
             <td>
               {% if item.inline %}

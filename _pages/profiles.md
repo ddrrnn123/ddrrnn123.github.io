@@ -74,4 +74,3 @@ profile_groups:
   </tbody>
 </table>
 </div>
-

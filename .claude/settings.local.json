@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(curl -s \"https://api.github.com/repos/ddrrnn123/ddrrnn123.github.io/actions/runs?per_page=5\")",
+      "Bash(python3 -c ' *)",
+      "Bash(curl -s \"https://api.github.com/repos/ddrrnn123/ddrrnn123.github.io/actions/runs?per_page=8\")",
+      "Bash(/usr/bin/python3 -c ' *)",
+      "Bash(curl -s \"https://api.github.com/repos/ddrrnn123/ddrrnn123.github.io/actions/runs?per_page=8\" > /tmp/runs.json && grep -oE '\"name\":\"[^\"]+\"|\"head_sha\":\"[a-f0-9]{8}|\"conclusion\":\"[^\"]+\"|\"head_commit\":{\"id\":\"[a-f0-9]{8}|\"message\":\"[^\"]{1,60}' /tmp/runs.json | head -50)",
+      "Bash(curl -sI https://ddrrnn123.github.io/publications/)",
+      "Bash(curl -s https://ddrrnn123.github.io/publications/)",
+      "Bash(curl -s \"https://api.github.com/repos/ddrrnn123/ddrrnn123.github.io/actions/runs?per_page=5&branch=master\")",
+      "Bash(grep -oE '\"display_title\":\"[^\"]{1,60}|\"conclusion\":\"[^\"]+\"|\"status\":\"[^\"]+\"' /tmp/runs.json)",
+      "Bash(awk 'BEGIN{RS=\",\"} /display_title|\"name\":\"deploy|\"name\": \"deploy|\"name\":\"pages|\"name\": \"pages|conclusion/{print}' /tmp/runs.json)",
+      "Bash(awk 'BEGIN{RS=\",\"} /\"name\": \"/{print}' /tmp/runs.json)",
+      "Bash(awk 'BEGIN{RS=\"\\\\\\\\{\"} /\"name\": \"Deploy site\"/{print}' /tmp/runs.json)",
+      "Bash(awk 'BEGIN{RS=\",\"} /display_title|conclusion|head_sha/{print}')",
+      "Bash(/usr/bin/python -c ' *)"
+    ]
+  }
+}

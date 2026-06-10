@@ -246,8 +246,19 @@ ul.task-list input[type="checkbox"] {
 .navbar {
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
-  background-color: var(--global-bg-color);
-  opacity: 0.95;
+  background-color: rgba(255, 255, 255, 0.72);
+  backdrop-filter: saturate(180%) blur(14px);
+  -webkit-backdrop-filter: saturate(180%) blur(14px);
+  transition:
+    background-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+// Subtle shadow once the page is scrolled.
+.navbar.navbar-scrolled {
+  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.06);
+}
+html[data-theme="dark"] .navbar {
+  background-color: rgba(28, 28, 29, 0.72);
 }
 
 .navbar .dropdown-menu {
@@ -738,8 +749,10 @@ footer.sticky-bottom {
         }
 
         > em {
-          border-bottom: 1px solid;
+          border-bottom: none;
           font-style: normal;
+          font-weight: 700;
+          color: var(--global-theme-color);
         }
 
         > span.more-authors {
@@ -1485,19 +1498,11 @@ body {
   font-weight: 500;
 }
 .callout-students {
-  background: linear-gradient(
-    135deg,
-    rgba(168, 98, 122, 0.12) 0%,
-    rgba(168, 98, 122, 0.04) 100%
-  );
+  background: linear-gradient(135deg, rgba(168, 98, 122, 0.12) 0%, rgba(168, 98, 122, 0.04) 100%);
   border-left-color: var(--slate-primary); // eosin pink
 }
 .callout-collab {
-  background: linear-gradient(
-    135deg,
-    rgba(91, 141, 153, 0.14) 0%,
-    rgba(91, 141, 153, 0.04) 100%
-  );
+  background: linear-gradient(135deg, rgba(91, 141, 153, 0.14) 0%, rgba(91, 141, 153, 0.04) 100%);
   border-left-color: #5b8d99; // muted teal
 }
 .callout-collab a {
@@ -1551,4 +1556,101 @@ body {
   color: var(--slate-text-gray);
   margin-bottom: 6px;
   line-height: 1.4;
+}
+
+// ---- Scroll-reveal fade-ins ----
+.reveal {
+  opacity: 0;
+  transform: translateY(16px);
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s ease;
+  will-change: opacity, transform;
+}
+.reveal-in {
+  opacity: 1;
+  transform: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+// ---- Animated underline that sweeps in under section headings ----
+.section-heading {
+  position: relative;
+}
+.section-heading::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px; // sits on the existing border line
+  height: 2px;
+  width: 0;
+  background: var(--slate-primary);
+  transition: width 0.5s ease;
+}
+.reveal-in.section-heading::after,
+.section-heading.reveal-in::after {
+  width: 64px;
+}
+// Fallback when reveal isn't applied (reduced motion / no JS).
+.section-heading:hover::after {
+  width: 64px;
+}
+
+// ---- Animated underline on inline content links ----
+.post article a:not(.icon-link):not(.btn):not(.news-title),
+.callout a {
+  background-image: linear-gradient(var(--slate-primary), var(--slate-primary));
+  background-size: 0% 1.5px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s ease;
+  text-decoration: none;
+}
+.post article a:not(.icon-link):not(.btn):not(.news-title):hover,
+.callout a:hover {
+  background-size: 100% 1.5px;
+  text-decoration: none;
+}
+
+// ---- News vertical timeline ----
+.news table {
+  position: relative;
+}
+.news table tr {
+  position: relative;
+}
+.news .news-date {
+  position: relative;
+  padding-left: 1.4rem !important;
+}
+.news .news-date::before {
+  content: "";
+  position: absolute;
+  left: 0.35rem;
+  top: 0.55em;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--slate-primary);
+  box-shadow: 0 0 0 2px rgba(168, 98, 122, 0.18);
+  z-index: 1;
+}
+.news .news-date::after {
+  content: "";
+  position: absolute;
+  left: calc(0.35rem + 3px);
+  top: 0.55em;
+  bottom: -0.6em;
+  width: 1px;
+  background: var(--slate-border);
+  z-index: 0;
+}
+.news table tr:last-child .news-date::after {
+  display: none;
 }
