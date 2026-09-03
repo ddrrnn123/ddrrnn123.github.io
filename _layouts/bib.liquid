@@ -154,15 +154,20 @@
       {{ periodical | strip }}
     </div>
     {% if entry.note %}
-      {% assign note_text = entry.note | strip %}
-      {% assign note_lower = note_text | downcase %}
-      {% if note_lower contains 'presentation' %}
-        {% assign note_class = 'pub-note pub-note-gold' %}
-      {% else %}
-        {% assign note_class = 'pub-note pub-note-red' %}
-      {% endif %}
       <div class="periodical">
-        <span class="{{ note_class }}">{{ note_text }}</span>
+        {% assign note_parts = entry.note | split: ';' %}
+        {% for note_part in note_parts %}
+          {% assign note_text = note_part | strip %}
+          {% if note_text != '' %}
+            {% assign note_lower = note_text | downcase %}
+            {% if note_lower contains 'presentation' or note_lower contains 'oral' %}
+              {% assign note_class = 'pub-note pub-note-gold' %}
+            {% else %}
+              {% assign note_class = 'pub-note pub-note-red' %}
+            {% endif %}
+            <span class="{{ note_class }}">{{ note_text }}</span>
+          {% endif %}
+        {% endfor %}
       </div>
     {% endif %}
 
