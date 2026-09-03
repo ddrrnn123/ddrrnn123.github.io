@@ -153,9 +153,9 @@
     <div class="periodical">
       {{ periodical | strip }}
     </div>
-    {% if entry.note %}
+    {% if entry.award %}
       <div class="periodical">
-        {% assign note_parts = entry.note | split: ';' %}
+        {% assign note_parts = entry.award | split: ';' %}
         {% for note_part in note_parts %}
           {% assign note_text = note_part | strip %}
           {% if note_text != '' %}
