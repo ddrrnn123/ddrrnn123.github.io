@@ -4,12 +4,15 @@
   abbr={MedIA},
   title={KPIs 2024 Challenge: Advancing Glomerular Segmentation from Patch- to Slide-Level},
   author={Deng, Ruining and Yao, Tianyuan and Tang, Yucheng and Guo, Junlin and Lu, Siqi and Xiong, Juming and Yu, Lining and Cap, Quan Huu and Cai, Pengzhou and Lan, Libin and others},
+  abstract={Chronic kidney disease (CKD) is a major global health issue, affecting over 10% of the population and causing significant mortality. While kidney biopsy remains the gold standard for CKD diagnosis and treatment, the lack of comprehensive benchmarks for kidney pathology segmentation hinders progress in the field. To address this, we organized the Kidney Pathology Image Segmentation (KPIs) Challenge, introducing a dataset that incorporates preclinical rodent models of CKD with over 10,000 annotated glomeruli from 60+ Periodic Acid Schiff (PAS)-stained whole slide images. The challenge includes two tasks-patch-level segmentation and whole slide image segmentation and detection-evaluated using the Dice Similarity Coefficient (DSC) and F1-score. By encouraging innovative segmentation methods that adapt to diverse CKD models and tissue conditions, the KPIs Challenge aims to advance kidney pathology analysis, establish new benchmarks, and enable precise, large-scale quantification for disease research and diagnosis.},
   journal={Medical Image Analysis},
   pages={104234},
   year={2026},
   publisher={Elsevier},
   preview={KPIs.png},
   bibtex_show={true},
+  html={https://www.sciencedirect.com/science/article/pii/S1361841526003038},
+  code={https://sites.google.com/view/kpis2024},
 }
 
 
@@ -17,12 +20,14 @@
   abbr={MICCAI},
   title={MORI-Seg: Learning Morphological Geometry for Instance Segmentation without Instance Annotations},
   author={Zhao, Leiyue and Shi, Tianyu and Reisenb{\"u}chler, Daniel and He, Xinzi and Zhu, Junchao and Yao, Tianyuan and Yang, Yuechen and Zhu, Yanfan and Guo, Junlin and Xu, Gelei and Yang, Haichun and Huo, Yuankai and Sabuncu, Mert R and Yang, Yihe and Deng, Ruining},
+  abstract={Instance-level quantification of kidney functional units is essential for morphometric analysis, yet most publicly available pathology datasets provide only semantic segmentation annotations, where adjacent structures of the same class are merged into single regions. This prevents reliable instance-level analysis and limits downstream quantitative studies. Existing heuristic post-processing methods often yield suboptimal instance separation, particularly in crowded and adherent regions, while deep learning-based instance segmentation approaches typically require intensive instance-level annotations that are costly and labor-intensive to obtain. We propose MORI-Seg, a deep learning framework that enables instance segmentation without requiring instance-level annotations. Instead of heuristic splitting or instance supervision, MORI-Seg learns morphology-aware geometric representations directly from semantic masks by jointly modeling object-centric distance fields and boundary-band representations to encode interior structure and contact interfaces. A class-conditioned feature disentanglement module further promotes intra-instance coherence and inter-instance separation. Under semantic-only supervision, MORI-Seg decomposes connected semantic regions into distinct instance masks in an end-to-end manner. Experiments demonstrate improved instance separation accuracy and more reliable morphometric quantification compared with classical post-processing pipelines and representative semantic-to-instance learning approaches.},
   booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
   year={2026},
   organization={Springer},
   preview={MORI-Seg.png},
   bibtex_show={true},
   html={https://arxiv.org/abs/2605.28261},
+  code={https://github.com/ddrrnn123/MORI-Seg},
   note={Oral Presentation; Early Accept},
 }
 
@@ -31,12 +36,14 @@
   abbr={MICCAI},
   title={ShapKO: Shapley-Adaptive Modality Knockout for Robust Multimodal Learning},
   author={Nizam, Nusrat Binta and Liu, Fengbei and Kwak, Sunwoo and Nguyen, Minh and Deng, Ruining and Sabuncu, Mert R},
+  abstract={Multimodal medical models often degrade when inputs are missing, a common scenario in real-world clinical workflows. Separately, even when all modalities are present, modality dominance is observed during training, where optimization over-relies on a highly predictive modality and undertrains complementary sources, resulting in poor robustness under partial availability. While training-time modality knockout improves missing-modality robustness, existing approaches use static masking rates that cannot adapt to evolving modality utility during training. We introduce ShapKO (Shapley-Adaptive Modality Knockout), a dynamic training strategy that learns modality-specific knockout probabilities based on validation utility. ShapKO periodically evaluates performance across modality subsets, estimates modality importance via Shapley values, and updates masking probabilities to suppress dominant modalities more frequently. This adaptive process promotes complementary representations, while requiring no architectural modifications. We evaluate ShapKO on three datasets covering multitask clinical classification, survival prediction, and cancer detection. ShapKO consistently improves performance under modality absence and yields interpretable trajectories of learned masking behavior.},
   booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
   year={2026},
   organization={Springer},
   preview={ShapKO.png},
   bibtex_show={true},
   html={https://arxiv.org/abs/2607.09884},
+  code={https://github.com/sumona00/ShapKO},
 }
 
 
@@ -62,6 +69,7 @@
   organization={PMLR},
   preview={ExplainablePathomics.png},
   bibtex_show={true},
+  html={https://arxiv.org/abs/2602.05397},
   note={Oral Presentation},
 }
 
