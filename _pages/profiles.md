@@ -20,15 +20,30 @@ profile_groups:
         role: PhD Student, University of Regensburg
         position: Visiting Researcher
 
+  - title: Graduate Students
+    people:
+      - name: Leiyue Zhao
+        image: LeiyueZhao.jpg
+        role: Master's Student, Johns Hopkins University
+        position: Research Assistant
+      - name: Duo-Jie Hsiao
+        image: DuoJieHsiao.jpg
+        role: Master's Student, Cornell Tech
+        position: Research Assistant
+      - name: Ledi Wang
+        image: prof_pic.jpg
+        role: Master's Student, Cornell Tech
+        position: Research Assistant
+      - name: Zheyu Zhu
+        image: prof_pic.jpg
+        role: Master's Student, University of Pennsylvania
+        position: Research Assistant
+
   - title: Undergraduate Students
     people:
       - name: Daniel (Zhenhao) Guo
         image: DanielGuo.jpg
         role: Undergraduate, New York University
-        position: Research Assistant
-      - name: Leiyue Zhao
-        image: LeiyueZhao.jpg
-        role: Undergraduate, Southern University of Science and Technology
         position: Research Assistant
       - name: Tianyu Shi
         image: TianyuShi.jpeg
@@ -37,6 +52,18 @@ profile_groups:
       - name: Hongjin Fang
         image: HongjinFang.png
         role: Undergraduate, Cornell University
+        position: Research Assistant
+      - name: Greta Hasko
+        image: GretaHasko.png
+        role: Undergraduate, Cornell University
+        position: Research Assistant
+      - name: Helen Qian
+        image: HelenQian.png
+        role: Undergraduate, Cornell University
+        position: Research Assistant
+      - name: Ellen Wei
+        image: EllenWei.jpg
+        role: Undergraduate, UCLA
         position: Research Assistant
       - name: Your Name?
         image: prof_pic.jpg
