@@ -24,6 +24,7 @@ nav_order: 6
 
 <ul class="service-list">
   <li><span class="service-date">2026</span><span class="service-body">MICCAI, Area Chair</span></li>
+  <li><span class="service-date">2026</span><span class="service-body">MICCAI MISO Workshop, Program Committee</span></li>
   <li><span class="service-date">2026</span><span class="service-body">MIDL, Program Chair</span></li>
   <li><span class="service-date">2025</span><span class="service-body">MICCAI, Area Chair</span></li>
   <li><span class="service-date">2025</span><span class="service-body">CVPR Medical Computer Vision Workshop, Program Committee</span></li>
@@ -41,6 +42,7 @@ nav_order: 6
 <div class="service-columns">
   <div>IEEE Transactions on Medical Imaging (TMI)</div>
   <div>Medical Image Analysis (MedIA)</div>
+  <div>Kidney International (KI)</div>
   <div>Nature Communications (NC)</div>
   <div>Nature Communications Medicine (NCM)</div>
   <div>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</div>
@@ -69,6 +71,7 @@ nav_order: 6
 <div class="service-columns">
   <div>Conference on Computer Vision and Pattern Recognition (CVPR)</div>
   <div>Conference on Neural Information Processing Systems (NeurIPS)</div>
+  <div>AAAI Conference on Artificial Intelligence (AAAI)</div>
   <div>International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)</div>
   <div>MICCAI Workshops (MICCAIW)</div>
   <div>International Conference on Medical Imaging with Deep Learning (MIDL)</div>
