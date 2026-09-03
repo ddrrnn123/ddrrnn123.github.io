@@ -31,11 +31,11 @@ profile_groups:
         role: Master's Student, Cornell Tech
         position: Research Assistant
       - name: Ledi Wang
-        image: prof_pic.jpg
+        image: LediWang.jpg
         role: Master's Student, Cornell Tech
         position: Research Assistant
       - name: Zheyu Zhu
-        image: prof_pic.jpg
+        image: ZheyuZhu.jpg
         role: Master's Student, University of Pennsylvania
         position: Research Assistant
 
@@ -63,7 +63,7 @@ profile_groups:
         position: Research Assistant
       - name: Ellen Wei
         image: EllenWei.jpg
-        role: Undergraduate, UCLA
+        role: Undergraduate, University of California, Los Angeles
         position: Research Assistant
       - name: Your Name?
         image: prof_pic.jpg
