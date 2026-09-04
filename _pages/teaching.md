@@ -37,6 +37,12 @@ nav_order: 6
   <li><span class="service-date">2022</span><span class="service-body">MED-NEURIPS, Program Committee</span></li>
 </ul>
 
+<h2 class="section-heading">Journal Service</h2>
+
+<ul class="service-list">
+  <li><span class="service-date">2026</span><span class="service-body">IEEE Journal of Biomedical and Health Informatics (JBHI), Associate Editor</span></li>
+</ul>
+
 <h2 class="section-heading">Journal Reviewer</h2>
 
 <div class="service-columns">
