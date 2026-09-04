@@ -12,7 +12,7 @@ layout: page
               {% if profile.image %}
                 {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
                 {% capture sizes %}(min-width: 992px) 180px, (min-width: 576px) 30vw, 60vw{% endcapture %}
-                {% include figure.liquid loading="eager" path=profile_image_path class="person-photo person-photo--circular" sizes=sizes alt=profile.name zoomable=false %}
+                {% include figure.liquid loading="eager" path=profile_image_path class="person-photo person-photo--circular" sizes=sizes alt=profile.name zoomable=false cache_bust=true %}
               {% endif %}
               <div class="person-name">{{ profile.name }}</div>
               {% if profile.role %}
