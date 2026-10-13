@@ -41,6 +41,7 @@ nav_order: 6
 
 <ul class="service-list">
   <li><span class="service-date">2026</span><span class="service-body">IEEE Journal of Biomedical and Health Informatics (JBHI), Associate Editor</span></li>
+  <li><span class="service-date">2026</span><span class="service-body">Journal of Machine Learning for Biomedical Imaging (MELBA), Publishing Editor</span></li>
 </ul>
 
 <h2 class="section-heading">Journal Reviewer</h2>
@@ -77,6 +78,7 @@ nav_order: 6
 <div class="service-columns">
   <div>Conference on Computer Vision and Pattern Recognition (CVPR)</div>
   <div>Conference on Neural Information Processing Systems (NeurIPS)</div>
+  <div>International Conference on Learning Representations (ICLR)</div>
   <div>AAAI Conference on Artificial Intelligence (AAAI)</div>
   <div>International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)</div>
   <div>MICCAI Workshops (MICCAIW)</div>
