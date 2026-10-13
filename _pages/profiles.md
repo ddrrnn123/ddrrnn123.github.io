@@ -86,6 +86,8 @@ profile_groups:
     </tr>
   </thead>
   <tbody>
+    <tr><td>Zhenhao Guo</td><td>BS</td><td>CS</td><td></td><td>MS Student at Carnegie Mellon University</td><td>VLM fine-tuning for renal pathology</td></tr>
+    <tr><td>Leiyue Zhao</td><td>BS</td><td>IE</td><td></td><td>MS Student at Johns Hopkins University</td><td>Instance segmentation for renal pathology</td></tr>
     <tr><td>Juming Xiong</td><td>MS</td><td>BME</td><td>2025</td><td>PhD Student at Vanderbilt University</td><td>Circle representation for medical instance segmentation</td></tr>
     <tr><td>Xueyuan Li</td><td>MS</td><td>DS</td><td>2024</td><td>Staff Research Associate at UCSF</td><td>Foundation model in cell annotation; SPIE Best Paper Award Finalist</td></tr>
     <tr><td>Lining Yu</td><td>MS</td><td>CS</td><td>2025</td><td></td><td>Multi-class segmentation for glomerular lesion</td></tr>
