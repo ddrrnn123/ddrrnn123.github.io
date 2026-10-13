@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-1 paper, “MAdam: Metric-Aware Multi-Objective Adam,” is accepted by `NeurIPS 2026` (Main Track, Poster). Congratulations to Fengbei!
+1 paper is accepted by `NeurIPS 2026`. Congratulations to Fengbei!

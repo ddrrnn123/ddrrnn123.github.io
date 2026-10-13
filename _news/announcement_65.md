@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Dr. Deng’s CTP project proposal, “Spatial Profiling of Bone Marrow Architecture in Early Plasma Cell Neoplasms,” is funded by the `Department of Pathology` at `Weill Cornell Medicine`.
+We receive `CTP Project Award` from `Weill Cornell Medicine` on Spatial Profiling of Bone Marrow Architecture in Early Plasma Cell Neoplasms. Thanks WCM CTP!

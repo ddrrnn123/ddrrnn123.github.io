@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-1 paper, “Patient-Conditioned Adaptive Offsets for Reliable Diagnosis across Subgroups,” is accepted by `IEEE Transactions on Medical Imaging (TMI)`. Congratulations to Gelei!
+1 paper is accepted by `IEEE Transactions on Medical Imaging (TMI)`. Congratulations to Gelei!
