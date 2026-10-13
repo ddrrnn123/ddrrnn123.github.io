@@ -44,3 +44,7 @@
 "MIDLS":
   url: https://www.midl.io
   color: "#EFC3DC"
+
+"NeurIPS":
+  url: https://neurips.cc
+  color: "#FDE2B3"

@@ -47,6 +47,34 @@
 }
 
 
+@article{xu2026patient,
+  abbr={TMI},
+  title={Patient-Conditioned Adaptive Offsets for Reliable Diagnosis across Subgroups},
+  author={Xu, Gelei and Duan, Yuying and Xia, Jun and Deng, Ruining and Jin, Wei and Shi, Yiyu},
+  abstract={AI models for medical diagnosis often exhibit uneven performance across patient populations due to heterogeneity in disease prevalence, imaging appearance, and clinical risk profiles. Existing algorithmic fairness approaches typically seek to reduce such disparities by suppressing sensitive attributes. However, in medical settings these attributes often carry essential diagnostic information, and removing them can degrade accuracy and reliability, particularly in high-stakes applications. In contrast, clinical decision making explicitly incorporates patient context when interpreting diagnostic evidence, suggesting a different design direction for subgroup-aware models. In this paper, we introduce HyperAdapt, a patient-conditioned adaptation framework that improves subgroup reliability while maintaining a shared diagnostic model. Clinically relevant attributes such as age and sex are encoded into a compact embedding and used to condition a hypernetwork-style module, which generates small residual modulation parameters for selected layers of a shared backbone. This design preserves the general medical knowledge learned by the backbone while enabling targeted adjustments that reflect patient-specific variability. To ensure efficiency and robustness, adaptations are constrained through low-rank and bottlenecked parameterizations, limiting both model complexity and computational overhead. Experiments across multiple public medical imaging benchmarks demonstrate that the proposed approach consistently improves subgroup-level performance without sacrificing overall accuracy. On the PAD-UFES-20 dataset, our method outperforms the strongest competing baseline by 4.1% in recall and 4.4% in F1 score, with larger gains observed for underrepresented patient populations.},
+  journal={IEEE Transactions on Medical Imaging},
+  year={2026},
+  publisher={IEEE},
+  preview={AdaptiveOffsets.png},
+  bibtex_show={true},
+  html={https://arxiv.org/abs/2601.13094},
+}
+
+
+@inproceedings{liu2026madam,
+  abbr={NeurIPS},
+  title={MAdam: Metric-Aware Multi-Objective Adam},
+  author={Liu, Fengbei and Saluja, Rachit and Kwak, Sunwoo and Wang, Ruibo and Deng, Ruining and Kim, Heejong and Paetzold, Johannes C and Sabuncu, Mert R},
+  abstract={Multi-objective optimization (MOO) underlies many machine learning problems, yet MOO solvers across the loss-balancing, gradient-balancing, and Pareto-based families almost universally hand their reconciled directions to Adam. We show this coupling introduces two systematic gaps between the solver's intent and the optimizer's execution. The first is a weighting mismatch: Adam's second-moment denominator entangles the time-varying preference vector with gradient statistics, marginalizing the preference into a history average and collapsing distinct Pareto trade-offs toward a near-uniform mixture. The second is a geometric mismatch: Adam's adaptive metric distorts the Euclidean geometry MOO solvers assume, turning aligned objectives into apparent conflicts. To resolve both jointly, we introduce MAdam (Metric-Aware Multi-Objective Adam), a drop-in wrapper that leaves both solver and optimizer unchanged. MAdam preconditions the reconciled direction by the preference-conditioned curvature of the scalarized objective; on this whitened input, Adam's second moment collapses to identity, so the realized update is governed by the preference-conditioned metric. Across multi-task learning, Pareto-front recovery, physics-informed neural networks, and medical imaging, MAdam improves over Adam in aggregate for every solver family.},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2026},
+  preview={MAdam.png},
+  bibtex_show={true},
+  html={https://arxiv.org/abs/2606.03904},
+  code={https://github.com/lfb-1/MAdam},
+}
+
+
 @inproceedings{saluja2025backsplit,
   abbr={CVPR},
   title={BackSplit: The Importance of Sub-dividing the Background in Biomedical Lesion Segmentation},
