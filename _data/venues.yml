@@ -48,3 +48,7 @@
 "NeurIPS":
   url: https://neurips.cc
   color: "#EFC3DC"
+
+"MELBA":
+  url: https://www.melba-journal.org
+  color: "#BEE1F7"
