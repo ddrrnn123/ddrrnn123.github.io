@@ -42,6 +42,8 @@ nav_order: 6
 <ul class="service-list">
   <li><span class="service-date">2026</span><span class="service-body">IEEE Journal of Biomedical and Health Informatics (JBHI), Associate Editor</span></li>
   <li><span class="service-date">2026</span><span class="service-body">Journal of Machine Learning for Biomedical Imaging (MELBA), Publishing Editor</span></li>
+  <li><span class="service-date">2026</span><span class="service-body">Journal of Machine Learning for Biomedical Imaging (MELBA), Guest Editor, MIDL 2026 Special Issue</span></li>
+  <li><span class="service-date">2026</span><span class="service-body">Frontiers in Medicine, Topic Editor (Guest Editor), Research Topic: Foundation Models and Domain Adaptation for Computational Renal Pathology</span></li>
 </ul>
 
 <h2 class="section-heading">Journal Reviewer</h2>
